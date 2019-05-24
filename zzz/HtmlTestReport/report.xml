@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skips="0" tests="8" time="224.711"><testcase classname="TestCases.test_invest.TestInvest" file="TestCases\test_invest.py" line="37" name="test_invest_success" time="74.60426187515259"><system-out>==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;acceptInsecureCerts&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;browserName&quot;:&quot;chrome&quot;,&quot;chrome&quot;:{&quot;chromedriverVersion&quot;:&quot;2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5)&quot;,&quot;userDataDir&quot;:&quot;C:\\Users\\muji\\AppData\\Local\\Temp\\scoped_dir21264_7231&quot;},&quot;cssSelectorsEnabled&quot;:true,&quot;databaseEnabled&quot;:false,&quot;goog:chromeOptions&quot;:{&quot;debuggerAddress&quot;:&quot;localhost:59684&quot;},&quot;handlesAlerts&quot;:true,&quot;hasTouchScreen&quot;:false,&quot;javascriptEnabled&quot;:true,&quot;locationContextEnabled&quot;:true,&quot;mobileEmulationEnabled&quot;:false,&quot;nativeEvents&quot;:true,&quot;networkConnectionEnabled&quot;:false,&quot;pageLoadStrategy&quot;:&quot;normal&quot;,&quot;platform&quot;:&quot;Windows NT&quot;,&quot;rotatable&quot;:false,&quot;setWindowRect&quot;:true,&quot;takesHeapSnapshot&quot;:true,&quot;takesScreenshot&quot;:true,&quot;unexpectedAlertBehaviour&quot;:&quot;&quot;,&quot;version&quot;:&quot;69.0.3497.92&quot;,&quot;webStorageEnabled&quot;:true}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;height&quot;:840,&quot;width&quot;:1552,&quot;x&quot;:-8,&quot;y&quot;:-8}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.3899425584004179-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.3899425584004179-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.3899425584004179-2&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.3899425584004179-3&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:7,&quot;value&quot;:{&quot;message&quot;:&quot;no such element: Unable to locate element: {\&quot;method\&quot;:\&quot;xpath\&quot;,\&quot;selector\&quot;:\&quot;//a[text()=\&quot;抢投标\&quot;]\&quot;}\n  (Session info: chrome=69.0.3497.92)\n  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64)&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.9046220292970075-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.9046220292970075-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.029344817870781137-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.029344817870781137-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;42065695.00&quot;}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.029344817870781137-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.029344817870781137-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.029344817870781137-2&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:7,&quot;value&quot;:{&quot;message&quot;:&quot;no such element: Unable to locate element: {\&quot;method\&quot;:\&quot;xpath\&quot;,\&quot;selector\&quot;:\&quot;//div[@class=\&quot;layui-layer-content\&quot;]//button[text()=\&quot;查看并激活\&quot;]\&quot;}\n  (Session info: chrome=69.0.3497.92)\n  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64)&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.029344817870781137-3&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.029344817870781137-3&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.37796578790300384-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.37796578790300384-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;42064195.00元&quot;}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;9ca17cbb36b5dbcd5a971c8f778d0d7b&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+</system-out><system-err> Tue, 13 Nov 2018 15:54:42  INFO conftest.py login_web [ line:38 ] =====用例前置：初始化浏览器会话，登陆前程贷系统=======
+ Tue, 13 Nov 2018 15:54:48  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:54:48  INFO BasePage.py wait_eleVisible [ line:32 ] 登陆页面_登陆功能: 元素 (&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;) 已可见,等待起始时间：2018-11-13 15:54:48.555097,等待时长：0
+ Tue, 13 Nov 2018 15:54:48  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;)
+ Tue, 13 Nov 2018 15:54:48  INFO BasePage.py input_text [ line:88 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;) 输入内容：18684720553
+ Tue, 13 Nov 2018 15:54:48  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;password&apos;]&quot;)
+ Tue, 13 Nov 2018 15:54:48  INFO BasePage.py input_text [ line:88 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;password&apos;]&quot;) 输入内容：python
+ Tue, 13 Nov 2018 15:54:49  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//button[@type=&apos;button&apos;]&quot;)
+ Tue, 13 Nov 2018 15:54:49  INFO BasePage.py click_element [ line:104 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//button[@type=&apos;button&apos;]&quot;) 点击事件。
+ Tue, 13 Nov 2018 15:54:49  INFO test_invest.py test_invest_success [ line:40 ] *********投资用例：正常场景-投资成功*********
+ Tue, 13 Nov 2018 15:54:49  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:55:10  INFO BasePage.py wait_eleVisible [ line:32 ] 首页_点击第一个抢投标: 元素 (&apos;xpath&apos;, &apos;//a[text()=&quot;抢投标&quot;]&apos;) 已可见,等待起始时间：2018-11-13 15:54:49.246642,等待时长：21
+ Tue, 13 Nov 2018 15:55:10  INFO BasePage.py get_element [ line:60 ] 首页_点击第一个抢投标：开始查找元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;抢投标&quot;]&apos;)
+ Tue, 13 Nov 2018 15:55:10  INFO BasePage.py click_element [ line:104 ] 首页_点击第一个抢投标: 元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;抢投标&quot;]&apos;) 点击事件。
+ Tue, 13 Nov 2018 15:55:31  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:55:31  INFO BasePage.py wait_eleVisible [ line:32 ] 标页面_获取用户余额: 元素 (&apos;xpath&apos;, &apos;//input[@data-url=&quot;/Invest/invest&quot;]&apos;) 已可见,等待起始时间：2018-11-13 15:55:31.854909,等待时长：0
+ Tue, 13 Nov 2018 15:55:31  INFO BasePage.py get_element [ line:60 ] 标页面_获取用户余额：开始查找元素：(&apos;xpath&apos;, &apos;//input[@data-url=&quot;/Invest/invest&quot;]&apos;)
+ Tue, 13 Nov 2018 15:55:31  INFO BasePage.py get_element_attribute [ line:120 ] 标页面_获取用户余额: 获取元素：(&apos;xpath&apos;, &apos;//input[@data-url=&quot;/Invest/invest&quot;]&apos;) 的属性：data-amount
+ Tue, 13 Nov 2018 15:55:31  INFO BasePage.py get_element_attribute [ line:123 ] 标页面_获取用户余额: 元素：(&apos;xpath&apos;, &apos;//input[@data-url=&quot;/Invest/invest&quot;]&apos;) 的属性：data-amount 值为：42065695.00
+ Tue, 13 Nov 2018 15:55:31  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:55:32  INFO BasePage.py wait_eleVisible [ line:32 ] 标页面_投资操作: 元素 (&apos;xpath&apos;, &apos;//input[@data-url=&quot;/Invest/invest&quot;]&apos;) 已可见,等待起始时间：2018-11-13 15:55:31.970835,等待时长：0
+ Tue, 13 Nov 2018 15:55:32  INFO BasePage.py get_element [ line:60 ] 标页面_投资操作：开始查找元素：(&apos;xpath&apos;, &apos;//input[@data-url=&quot;/Invest/invest&quot;]&apos;)
+ Tue, 13 Nov 2018 15:55:32  INFO BasePage.py input_text [ line:88 ] 标页面_投资操作: 元素：(&apos;xpath&apos;, &apos;//input[@data-url=&quot;/Invest/invest&quot;]&apos;) 输入内容：1500
+ Tue, 13 Nov 2018 15:55:32  INFO BasePage.py get_element [ line:60 ] 标页面_投资操作：开始查找元素：(&apos;xpath&apos;, &apos;//button[text()=&quot;投标&quot;]&apos;)
+ Tue, 13 Nov 2018 15:55:32  INFO BasePage.py click_element [ line:104 ] 标页面_投资操作: 元素：(&apos;xpath&apos;, &apos;//button[text()=&quot;投标&quot;]&apos;) 点击事件。
+ Tue, 13 Nov 2018 15:55:32  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:55:33  INFO BasePage.py wait_eleVisible [ line:32 ] 标页面_投资成功弹出框_点击查看并激动按钮: 元素 (&apos;xpath&apos;, &apos;//div[@class=&quot;layui-layer-content&quot;]//button[text()=&quot;查看并激活&quot;]&apos;) 已可见,等待起始时间：2018-11-13 15:55:32.389596,等待时长：0
+ Tue, 13 Nov 2018 15:55:33  INFO BasePage.py get_element [ line:60 ] 标页面_投资成功弹出框_点击查看并激动按钮：开始查找元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;layui-layer-content&quot;]//button[text()=&quot;查看并激活&quot;]&apos;)
+ Tue, 13 Nov 2018 15:55:33  INFO BasePage.py click_element [ line:104 ] 标页面_投资成功弹出框_点击查看并激动按钮: 元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;layui-layer-content&quot;]//button[text()=&quot;查看并激活&quot;]&apos;) 点击事件。
+ Tue, 13 Nov 2018 15:55:54  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:55:54  INFO BasePage.py wait_eleVisible [ line:32 ] 个人页面_获取用户余额: 元素 (&apos;xpath&apos;, &apos;//*[@class=&quot;personal_info&quot;]//li[@class=&quot;color_sub&quot;]&apos;) 已可见,等待起始时间：2018-11-13 15:55:54.139433,等待时长：0
+ Tue, 13 Nov 2018 15:55:54  INFO BasePage.py get_element [ line:60 ] 个人页面_获取用户余额：开始查找元素：(&apos;xpath&apos;, &apos;//*[@class=&quot;personal_info&quot;]//li[@class=&quot;color_sub&quot;]&apos;)
+ Tue, 13 Nov 2018 15:55:54  INFO BasePage.py get_text [ line:139 ] 个人页面_获取用户余额：获取元素：(&apos;xpath&apos;, &apos;//*[@class=&quot;personal_info&quot;]//li[@class=&quot;color_sub&quot;]&apos;) 的文本内容
+ Tue, 13 Nov 2018 15:55:54  INFO BasePage.py get_text [ line:142 ] 个人页面_获取用户余额：元素：(&apos;xpath&apos;, &apos;//*[@class=&quot;personal_info&quot;]//li[@class=&quot;color_sub&quot;]&apos;) 的文本内容为：42064195.00元
+ Tue, 13 Nov 2018 15:55:54  INFO conftest.py login_web [ line:46 ] =====用例后置：关闭浏览器会话,清理环境=======
+</system-err></testcase><testcase classname="TestCases.test_invest.TestInvest" file="TestCases\test_invest.py" line="57" name="test_invest_failed_by_No100" time="74.12306880950928"><system-out>==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;acceptInsecureCerts&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;browserName&quot;:&quot;chrome&quot;,&quot;chrome&quot;:{&quot;chromedriverVersion&quot;:&quot;2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5)&quot;,&quot;userDataDir&quot;:&quot;C:\\Users\\muji\\AppData\\Local\\Temp\\scoped_dir8872_3251&quot;},&quot;cssSelectorsEnabled&quot;:true,&quot;databaseEnabled&quot;:false,&quot;goog:chromeOptions&quot;:{&quot;debuggerAddress&quot;:&quot;localhost:59751&quot;},&quot;handlesAlerts&quot;:true,&quot;hasTouchScreen&quot;:false,&quot;javascriptEnabled&quot;:true,&quot;locationContextEnabled&quot;:true,&quot;mobileEmulationEnabled&quot;:false,&quot;nativeEvents&quot;:true,&quot;networkConnectionEnabled&quot;:false,&quot;pageLoadStrategy&quot;:&quot;normal&quot;,&quot;platform&quot;:&quot;Windows NT&quot;,&quot;rotatable&quot;:false,&quot;setWindowRect&quot;:true,&quot;takesHeapSnapshot&quot;:true,&quot;takesScreenshot&quot;:true,&quot;unexpectedAlertBehaviour&quot;:&quot;&quot;,&quot;version&quot;:&quot;69.0.3497.92&quot;,&quot;webStorageEnabled&quot;:true}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;height&quot;:840,&quot;width&quot;:1552,&quot;x&quot;:-8,&quot;y&quot;:-8}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.39633513548299715-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.39633513548299715-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.39633513548299715-2&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.39633513548299715-3&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:7,&quot;value&quot;:{&quot;message&quot;:&quot;no such element: Unable to locate element: {\&quot;method\&quot;:\&quot;xpath\&quot;,\&quot;selector\&quot;:\&quot;//a[text()=\&quot;抢投标\&quot;]\&quot;}\n  (Session info: chrome=69.0.3497.92)\n  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64)&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.6206948621675672-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.6206948621675672-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.8318905167814503-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.8318905167814503-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;42064195.00&quot;}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.8318905167814503-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.8318905167814503-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.8318905167814503-2&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:7,&quot;value&quot;:{&quot;message&quot;:&quot;no such element: Unable to locate element: {\&quot;method\&quot;:\&quot;xpath\&quot;,\&quot;selector\&quot;:\&quot;//div[contains(@class,\&quot;layui-layer-dialog\&quot;)]//div[@class=\&quot;text-center\&quot;]\&quot;}\n  (Session info: chrome=69.0.3497.92)\n  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64)&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.8318905167814503-3&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.8318905167814503-3&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;投标金额必须为100的倍数&quot;}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.8318905167814503-4&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.6912088695162568-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.6912088695162568-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;42064195.00&quot;}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;570158e737e500d60f377ea1189e8345&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+</system-out><system-err> Tue, 13 Nov 2018 15:55:56  INFO conftest.py login_web [ line:38 ] =====用例前置：初始化浏览器会话，登陆前程贷系统=======
+ Tue, 13 Nov 2018 15:56:02  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:56:02  INFO BasePage.py wait_eleVisible [ line:32 ] 登陆页面_登陆功能: 元素 (&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;) 已可见,等待起始时间：2018-11-13 15:56:02.666572,等待时长：0
+ Tue, 13 Nov 2018 15:56:02  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;)
+ Tue, 13 Nov 2018 15:56:02  INFO BasePage.py input_text [ line:88 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;) 输入内容：18684720553
+ Tue, 13 Nov 2018 15:56:02  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;password&apos;]&quot;)
+ Tue, 13 Nov 2018 15:56:02  INFO BasePage.py input_text [ line:88 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;password&apos;]&quot;) 输入内容：python
+ Tue, 13 Nov 2018 15:56:03  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//button[@type=&apos;button&apos;]&quot;)
+ Tue, 13 Nov 2018 15:56:03  INFO BasePage.py click_element [ line:104 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//button[@type=&apos;button&apos;]&quot;) 点击事件。
+ Tue, 13 Nov 2018 15:56:03  INFO test_invest.py test_invest_failed_by_No100 [ line:59 ] *********投资用例：异常场景：投资金额为非100的整数倍*********
+ Tue, 13 Nov 2018 15:56:03  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:56:24  INFO BasePage.py wait_eleVisible [ line:32 ] 首页_点击第一个抢投标: 元素 (&apos;xpath&apos;, &apos;//a[text()=&quot;抢投标&quot;]&apos;) 已可见,等待起始时间：2018-11-13 15:56:03.270231,等待时长：21
+ Tue, 13 Nov 2018 15:56:24  INFO BasePage.py get_element [ line:60 ] 首页_点击第一个抢投标：开始查找元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;抢投标&quot;]&apos;)
+ Tue, 13 Nov 2018 15:56:24  INFO BasePage.py click_element [ line:104 ] 首页_点击第一个抢投标: 元素：(&apos;xpath&apos;, &apos;//a[text()=&quot;抢投标&quot;]&apos;) 点击事件。
+ Tue, 13 Nov 2018 15:56:46  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:56:46  INFO BasePage.py wait_eleVisible [ line:32 ] 标页面_获取用户余额: 元素 (&apos;xpath&apos;, &apos;//input[@data-url=&quot;/Invest/invest&quot;]&apos;) 已可见,等待起始时间：2018-11-13 15:56:46.011127,等待时长：0
+ Tue, 13 Nov 2018 15:56:46  INFO BasePage.py get_element [ line:60 ] 标页面_获取用户余额：开始查找元素：(&apos;xpath&apos;, &apos;//input[@data-url=&quot;/Invest/invest&quot;]&apos;)
+ Tue, 13 Nov 2018 15:56:46  INFO BasePage.py get_element_attribute [ line:120 ] 标页面_获取用户余额: 获取元素：(&apos;xpath&apos;, &apos;//input[@data-url=&quot;/Invest/invest&quot;]&apos;) 的属性：data-amount
+ Tue, 13 Nov 2018 15:56:46  INFO BasePage.py get_element_attribute [ line:123 ] 标页面_获取用户余额: 元素：(&apos;xpath&apos;, &apos;//input[@data-url=&quot;/Invest/invest&quot;]&apos;) 的属性：data-amount 值为：42064195.00
+ Tue, 13 Nov 2018 15:56:46  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:56:46  INFO BasePage.py wait_eleVisible [ line:32 ] 标页面_投资操作: 元素 (&apos;xpath&apos;, &apos;//input[@data-url=&quot;/Invest/invest&quot;]&apos;) 已可见,等待起始时间：2018-11-13 15:56:46.114070,等待时长：0
+ Tue, 13 Nov 2018 15:56:46  INFO BasePage.py get_element [ line:60 ] 标页面_投资操作：开始查找元素：(&apos;xpath&apos;, &apos;//input[@data-url=&quot;/Invest/invest&quot;]&apos;)
+ Tue, 13 Nov 2018 15:56:46  INFO BasePage.py input_text [ line:88 ] 标页面_投资操作: 元素：(&apos;xpath&apos;, &apos;//input[@data-url=&quot;/Invest/invest&quot;]&apos;) 输入内容：1550
+ Tue, 13 Nov 2018 15:56:46  INFO BasePage.py get_element [ line:60 ] 标页面_投资操作：开始查找元素：(&apos;xpath&apos;, &apos;//button[text()=&quot;投标&quot;]&apos;)
+ Tue, 13 Nov 2018 15:56:46  INFO BasePage.py click_element [ line:104 ] 标页面_投资操作: 元素：(&apos;xpath&apos;, &apos;//button[text()=&quot;投标&quot;]&apos;) 点击事件。
+ Tue, 13 Nov 2018 15:56:46  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:56:47  INFO BasePage.py wait_eleVisible [ line:32 ] 投资失败弹出框_提示信息: 元素 (&apos;xpath&apos;, &apos;//div[contains(@class,&quot;layui-layer-dialog&quot;)]//div[@class=&quot;text-center&quot;]&apos;) 已可见,等待起始时间：2018-11-13 15:56:46.466870,等待时长：0
+ Tue, 13 Nov 2018 15:56:47  INFO BasePage.py get_element [ line:60 ] 投资失败弹出框_提示信息：开始查找元素：(&apos;xpath&apos;, &apos;//div[contains(@class,&quot;layui-layer-dialog&quot;)]//div[@class=&quot;text-center&quot;]&apos;)
+ Tue, 13 Nov 2018 15:56:47  INFO BasePage.py get_text [ line:139 ] 投资失败弹出框_提示信息：获取元素：(&apos;xpath&apos;, &apos;//div[contains(@class,&quot;layui-layer-dialog&quot;)]//div[@class=&quot;text-center&quot;]&apos;) 的文本内容
+ Tue, 13 Nov 2018 15:56:47  INFO BasePage.py get_text [ line:142 ] 投资失败弹出框_提示信息：元素：(&apos;xpath&apos;, &apos;//div[contains(@class,&quot;layui-layer-dialog&quot;)]//div[@class=&quot;text-center&quot;]&apos;) 的文本内容为：投标金额必须为100的倍数
+ Tue, 13 Nov 2018 15:56:47  INFO BasePage.py get_element [ line:60 ] 投资失败弹出框_提示信息：开始查找元素：(&apos;xpath&apos;, &apos;//div[contains(@class,&quot;layui-layer-dialog&quot;)]//a&apos;)
+ Tue, 13 Nov 2018 15:56:47  INFO BasePage.py click_element [ line:104 ] 投资失败弹出框_提示信息: 元素：(&apos;xpath&apos;, &apos;//div[contains(@class,&quot;layui-layer-dialog&quot;)]//a&apos;) 点击事件。
+ Tue, 13 Nov 2018 15:57:08  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:57:08  INFO BasePage.py wait_eleVisible [ line:32 ] 标页面_获取用户余额: 元素 (&apos;xpath&apos;, &apos;//input[@data-url=&quot;/Invest/invest&quot;]&apos;) 已可见,等待起始时间：2018-11-13 15:57:08.331458,等待时长：0
+ Tue, 13 Nov 2018 15:57:08  INFO BasePage.py get_element [ line:60 ] 标页面_获取用户余额：开始查找元素：(&apos;xpath&apos;, &apos;//input[@data-url=&quot;/Invest/invest&quot;]&apos;)
+ Tue, 13 Nov 2018 15:57:08  INFO BasePage.py get_element_attribute [ line:120 ] 标页面_获取用户余额: 获取元素：(&apos;xpath&apos;, &apos;//input[@data-url=&quot;/Invest/invest&quot;]&apos;) 的属性：data-amount
+ Tue, 13 Nov 2018 15:57:08  INFO BasePage.py get_element_attribute [ line:123 ] 标页面_获取用户余额: 元素：(&apos;xpath&apos;, &apos;//input[@data-url=&quot;/Invest/invest&quot;]&apos;) 的属性：data-amount 值为：42064195.00
+ Tue, 13 Nov 2018 15:57:08  INFO conftest.py login_web [ line:46 ] =====用例后置：关闭浏览器会话,清理环境=======
+</system-err></testcase><testcase classname="TestCases.test_login.TestLogin" file="TestCases\test_login.py" line="20" name="test_login_success" time="30.441662788391113"><failure message="AssertionError: assert &apos;我的帐户[小蜜蜂96029]&apos; == &apos;我的帐户[小小蜂96027]&apos;
+  - 我的帐户[小蜜蜂96029]
+  ?       ^     ^
+  + 我的帐户[小小蜂96027]
+  ?       ^     ^">self = &lt;TestCases.test_login.TestLogin object at 0x00000000052FFEF0&gt;
+init_loginEnv = [&lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&quot;f3e9f1f5768ca23296fa69512b9543fb&quot;)&gt;, &lt;PageObjects.login_page.LoginPage object at 0x0000000005301EB8&gt;]
+
+    def test_login_success(self,init_loginEnv):
+        logging.info(&quot;*********登陆用例：正常场景：使用正确的用户名和密码登陆*********&quot;)
+        #步骤 - 登陆：用户名：18684720553  密码：python 比对数据：我的帐户[小小蜂96027]
+        init_loginEnv[1].login(LD.login_succs[&quot;username&quot;],LD.login_succs[&quot;passwd&quot;])
+        #断言
+        try:
+&gt;           assert IndexPage(init_loginEnv[0]).get_nickName() == LD.login_succs[&quot;check&quot;]
+E           AssertionError: assert &apos;我的帐户[小蜜蜂96029]&apos; == &apos;我的帐户[小小蜂96027]&apos;
+E             - 我的帐户[小蜜蜂96029]
+E             ?       ^     ^
+E             + 我的帐户[小小蜂96027]
+E             ?       ^     ^
+
+TestCases\test_login.py:27: AssertionError</failure><system-out>==========我是class级别的fixtures=============
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;f3e9f1f5768ca23296fa69512b9543fb&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;acceptInsecureCerts&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;browserName&quot;:&quot;chrome&quot;,&quot;chrome&quot;:{&quot;chromedriverVersion&quot;:&quot;2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5)&quot;,&quot;userDataDir&quot;:&quot;C:\\Users\\muji\\AppData\\Local\\Temp\\scoped_dir21220_24202&quot;},&quot;cssSelectorsEnabled&quot;:true,&quot;databaseEnabled&quot;:false,&quot;goog:chromeOptions&quot;:{&quot;debuggerAddress&quot;:&quot;localhost:59815&quot;},&quot;handlesAlerts&quot;:true,&quot;hasTouchScreen&quot;:false,&quot;javascriptEnabled&quot;:true,&quot;locationContextEnabled&quot;:true,&quot;mobileEmulationEnabled&quot;:false,&quot;nativeEvents&quot;:true,&quot;networkConnectionEnabled&quot;:false,&quot;pageLoadStrategy&quot;:&quot;normal&quot;,&quot;platform&quot;:&quot;Windows NT&quot;,&quot;rotatable&quot;:false,&quot;setWindowRect&quot;:true,&quot;takesHeapSnapshot&quot;:true,&quot;takesScreenshot&quot;:true,&quot;unexpectedAlertBehaviour&quot;:&quot;&quot;,&quot;version&quot;:&quot;69.0.3497.92&quot;,&quot;webStorageEnabled&quot;:true}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;f3e9f1f5768ca23296fa69512b9543fb&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;height&quot;:840,&quot;width&quot;:1552,&quot;x&quot;:-8,&quot;y&quot;:-8}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;f3e9f1f5768ca23296fa69512b9543fb&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;f3e9f1f5768ca23296fa69512b9543fb&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.6077591452949662-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;f3e9f1f5768ca23296fa69512b9543fb&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;f3e9f1f5768ca23296fa69512b9543fb&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.6077591452949662-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;f3e9f1f5768ca23296fa69512b9543fb&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;f3e9f1f5768ca23296fa69512b9543fb&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.6077591452949662-2&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;f3e9f1f5768ca23296fa69512b9543fb&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;f3e9f1f5768ca23296fa69512b9543fb&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.6077591452949662-3&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;f3e9f1f5768ca23296fa69512b9543fb&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;f3e9f1f5768ca23296fa69512b9543fb&quot;,&quot;status&quot;:7,&quot;value&quot;:{&quot;message&quot;:&quot;no such element: Unable to locate element: {\&quot;method\&quot;:\&quot;xpath\&quot;,\&quot;selector\&quot;:\&quot;//a[@href=\&quot;/Member/index.html\&quot;]\&quot;}\n  (Session info: chrome=69.0.3497.92)\n  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64)&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;f3e9f1f5768ca23296fa69512b9543fb&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.5373849095591383-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;f3e9f1f5768ca23296fa69512b9543fb&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;f3e9f1f5768ca23296fa69512b9543fb&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.5373849095591383-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;f3e9f1f5768ca23296fa69512b9543fb&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;我的帐户[小蜜蜂96029]&quot;}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;f3e9f1f5768ca23296fa69512b9543fb&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+</system-out><system-err> Tue, 13 Nov 2018 15:57:10  INFO conftest.py init_loginEnv [ line:21 ] =====用例前置：初始化浏览器会话:打开谷歌浏览器，访问系统网址：http://120.79.176.157:8012/Index/login.html=======
+ Tue, 13 Nov 2018 15:57:16  INFO test_login.py test_login_success [ line:22 ] *********登陆用例：正常场景：使用正确的用户名和密码登陆*********
+ Tue, 13 Nov 2018 15:57:16  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:57:16  INFO BasePage.py wait_eleVisible [ line:32 ] 登陆页面_登陆功能: 元素 (&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;) 已可见,等待起始时间：2018-11-13 15:57:16.740670,等待时长：0
+ Tue, 13 Nov 2018 15:57:16  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;)
+ Tue, 13 Nov 2018 15:57:16  INFO BasePage.py input_text [ line:88 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;) 输入内容：18684720553
+ Tue, 13 Nov 2018 15:57:17  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;password&apos;]&quot;)
+ Tue, 13 Nov 2018 15:57:17  INFO BasePage.py input_text [ line:88 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;password&apos;]&quot;) 输入内容：python
+ Tue, 13 Nov 2018 15:57:17  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//button[@type=&apos;button&apos;]&quot;)
+ Tue, 13 Nov 2018 15:57:17  INFO BasePage.py click_element [ line:104 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//button[@type=&apos;button&apos;]&quot;) 点击事件。
+ Tue, 13 Nov 2018 15:57:17  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:57:38  INFO BasePage.py wait_eleVisible [ line:32 ] 首页_获取用户昵称: 元素 (&apos;xpath&apos;, &apos;//a[@href=&quot;/Member/index.html&quot;]&apos;) 已可见,等待起始时间：2018-11-13 15:57:17.351325,等待时长：21
+ Tue, 13 Nov 2018 15:57:38  INFO BasePage.py get_element [ line:60 ] 首页_获取用户昵称：开始查找元素：(&apos;xpath&apos;, &apos;//a[@href=&quot;/Member/index.html&quot;]&apos;)
+ Tue, 13 Nov 2018 15:57:38  INFO BasePage.py get_text [ line:139 ] 首页_获取用户昵称：获取元素：(&apos;xpath&apos;, &apos;//a[@href=&quot;/Member/index.html&quot;]&apos;) 的文本内容
+ Tue, 13 Nov 2018 15:57:38  INFO BasePage.py get_text [ line:142 ] 首页_获取用户昵称：元素：(&apos;xpath&apos;, &apos;//a[@href=&quot;/Member/index.html&quot;]&apos;) 的文本内容为：我的帐户[小蜜蜂96029]
+ Tue, 13 Nov 2018 15:57:38  ERROR test_login.py test_login_success [ line:29 ] 断言失败
+Traceback (most recent call last):
+  File &quot;D:\Pychram-Workspace\python9_WEB_Framework\TestCases\test_login.py&quot;, line 27, in test_login_success
+    assert IndexPage(init_loginEnv[0]).get_nickName() == LD.login_succs[&quot;check&quot;]
+AssertionError: assert &apos;我的帐户[小蜜蜂96029]&apos; == &apos;我的帐户[小小蜂96027]&apos;
+  - 我的帐户[小蜜蜂96029]
+  ?       ^     ^
+  + 我的帐户[小小蜂96027]
+  ?       ^     ^
+ Tue, 13 Nov 2018 15:57:38  INFO conftest.py init_loginEnv [ line:28 ] =====用例后置：关闭谷歌浏览器会话=======
+</system-err></testcase><testcase classname="TestCases.test_login.TestLogin" file="TestCases\test_login.py" line="31" name="test_login_fail_noUser[data0]" time="8.449257135391235"><system-out>==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;02ecc072e28411b1711ee7a168cf627f&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;acceptInsecureCerts&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;browserName&quot;:&quot;chrome&quot;,&quot;chrome&quot;:{&quot;chromedriverVersion&quot;:&quot;2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5)&quot;,&quot;userDataDir&quot;:&quot;C:\\Users\\muji\\AppData\\Local\\Temp\\scoped_dir23436_32643&quot;},&quot;cssSelectorsEnabled&quot;:true,&quot;databaseEnabled&quot;:false,&quot;goog:chromeOptions&quot;:{&quot;debuggerAddress&quot;:&quot;localhost:59859&quot;},&quot;handlesAlerts&quot;:true,&quot;hasTouchScreen&quot;:false,&quot;javascriptEnabled&quot;:true,&quot;locationContextEnabled&quot;:true,&quot;mobileEmulationEnabled&quot;:false,&quot;nativeEvents&quot;:true,&quot;networkConnectionEnabled&quot;:false,&quot;pageLoadStrategy&quot;:&quot;normal&quot;,&quot;platform&quot;:&quot;Windows NT&quot;,&quot;rotatable&quot;:false,&quot;setWindowRect&quot;:true,&quot;takesHeapSnapshot&quot;:true,&quot;takesScreenshot&quot;:true,&quot;unexpectedAlertBehaviour&quot;:&quot;&quot;,&quot;version&quot;:&quot;69.0.3497.92&quot;,&quot;webStorageEnabled&quot;:true}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;02ecc072e28411b1711ee7a168cf627f&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;height&quot;:840,&quot;width&quot;:1552,&quot;x&quot;:-8,&quot;y&quot;:-8}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;02ecc072e28411b1711ee7a168cf627f&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;02ecc072e28411b1711ee7a168cf627f&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.12996408340907872-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;02ecc072e28411b1711ee7a168cf627f&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;02ecc072e28411b1711ee7a168cf627f&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.12996408340907872-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;02ecc072e28411b1711ee7a168cf627f&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;02ecc072e28411b1711ee7a168cf627f&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.12996408340907872-2&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;02ecc072e28411b1711ee7a168cf627f&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;02ecc072e28411b1711ee7a168cf627f&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.12996408340907872-3&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;02ecc072e28411b1711ee7a168cf627f&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;02ecc072e28411b1711ee7a168cf627f&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.12996408340907872-4&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;02ecc072e28411b1711ee7a168cf627f&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;请输入手机号&quot;}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;02ecc072e28411b1711ee7a168cf627f&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+</system-out><system-err> Tue, 13 Nov 2018 15:57:41  INFO conftest.py init_loginEnv [ line:21 ] =====用例前置：初始化浏览器会话:打开谷歌浏览器，访问系统网址：http://120.79.176.157:8012/Index/login.html=======
+ Tue, 13 Nov 2018 15:57:46  INFO test_login.py test_login_fail_noUser [ line:34 ] *********登陆用例：异常场景：没有用户名/没有密码/用户名格式不正确*********
+ Tue, 13 Nov 2018 15:57:46  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:57:46  INFO BasePage.py wait_eleVisible [ line:32 ] 登陆页面_登陆功能: 元素 (&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;) 已可见,等待起始时间：2018-11-13 15:57:46.874789,等待时长：0
+ Tue, 13 Nov 2018 15:57:46  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;)
+ Tue, 13 Nov 2018 15:57:46  INFO BasePage.py input_text [ line:88 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;) 输入内容：
+ Tue, 13 Nov 2018 15:57:47  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;password&apos;]&quot;)
+ Tue, 13 Nov 2018 15:57:47  INFO BasePage.py input_text [ line:88 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;password&apos;]&quot;) 输入内容：python
+ Tue, 13 Nov 2018 15:57:47  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//button[@type=&apos;button&apos;]&quot;)
+ Tue, 13 Nov 2018 15:57:47  INFO BasePage.py click_element [ line:104 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//button[@type=&apos;button&apos;]&quot;) 点击事件。
+ Tue, 13 Nov 2018 15:57:47  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆区域错误提示：开始查找元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;form-error-info&quot;]&apos;)
+ Tue, 13 Nov 2018 15:57:47  INFO BasePage.py get_text [ line:139 ] 登陆页面_登陆区域错误提示：获取元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;form-error-info&quot;]&apos;) 的文本内容
+ Tue, 13 Nov 2018 15:57:47  INFO BasePage.py get_text [ line:142 ] 登陆页面_登陆区域错误提示：元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;form-error-info&quot;]&apos;) 的文本内容为：请输入手机号
+ Tue, 13 Nov 2018 15:57:47  INFO conftest.py init_loginEnv [ line:28 ] =====用例后置：关闭谷歌浏览器会话=======
+</system-err></testcase><testcase classname="TestCases.test_login.TestLogin" file="TestCases\test_login.py" line="31" name="test_login_fail_noUser[data1]" time="9.109686851501465"><system-out>==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;338ba97a8cd23cd0d30d7a4ee4a4dec5&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;acceptInsecureCerts&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;browserName&quot;:&quot;chrome&quot;,&quot;chrome&quot;:{&quot;chromedriverVersion&quot;:&quot;2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5)&quot;,&quot;userDataDir&quot;:&quot;C:\\Users\\muji\\AppData\\Local\\Temp\\scoped_dir19188_2687&quot;},&quot;cssSelectorsEnabled&quot;:true,&quot;databaseEnabled&quot;:false,&quot;goog:chromeOptions&quot;:{&quot;debuggerAddress&quot;:&quot;localhost:59892&quot;},&quot;handlesAlerts&quot;:true,&quot;hasTouchScreen&quot;:false,&quot;javascriptEnabled&quot;:true,&quot;locationContextEnabled&quot;:true,&quot;mobileEmulationEnabled&quot;:false,&quot;nativeEvents&quot;:true,&quot;networkConnectionEnabled&quot;:false,&quot;pageLoadStrategy&quot;:&quot;normal&quot;,&quot;platform&quot;:&quot;Windows NT&quot;,&quot;rotatable&quot;:false,&quot;setWindowRect&quot;:true,&quot;takesHeapSnapshot&quot;:true,&quot;takesScreenshot&quot;:true,&quot;unexpectedAlertBehaviour&quot;:&quot;&quot;,&quot;version&quot;:&quot;69.0.3497.92&quot;,&quot;webStorageEnabled&quot;:true}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;338ba97a8cd23cd0d30d7a4ee4a4dec5&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;height&quot;:840,&quot;width&quot;:1552,&quot;x&quot;:-8,&quot;y&quot;:-8}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;338ba97a8cd23cd0d30d7a4ee4a4dec5&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;338ba97a8cd23cd0d30d7a4ee4a4dec5&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.47300290791106137-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;338ba97a8cd23cd0d30d7a4ee4a4dec5&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;338ba97a8cd23cd0d30d7a4ee4a4dec5&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.47300290791106137-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;338ba97a8cd23cd0d30d7a4ee4a4dec5&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;338ba97a8cd23cd0d30d7a4ee4a4dec5&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.47300290791106137-2&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;338ba97a8cd23cd0d30d7a4ee4a4dec5&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;338ba97a8cd23cd0d30d7a4ee4a4dec5&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.47300290791106137-3&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;338ba97a8cd23cd0d30d7a4ee4a4dec5&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;338ba97a8cd23cd0d30d7a4ee4a4dec5&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.47300290791106137-4&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;338ba97a8cd23cd0d30d7a4ee4a4dec5&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;请输入密码&quot;}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;338ba97a8cd23cd0d30d7a4ee4a4dec5&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+</system-out><system-err> Tue, 13 Nov 2018 15:57:49  INFO conftest.py init_loginEnv [ line:21 ] =====用例前置：初始化浏览器会话:打开谷歌浏览器，访问系统网址：http://120.79.176.157:8012/Index/login.html=======
+ Tue, 13 Nov 2018 15:57:55  INFO test_login.py test_login_fail_noUser [ line:34 ] *********登陆用例：异常场景：没有用户名/没有密码/用户名格式不正确*********
+ Tue, 13 Nov 2018 15:57:55  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:57:56  INFO BasePage.py wait_eleVisible [ line:32 ] 登陆页面_登陆功能: 元素 (&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;) 已可见,等待起始时间：2018-11-13 15:57:55.991250,等待时长：0
+ Tue, 13 Nov 2018 15:57:56  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;)
+ Tue, 13 Nov 2018 15:57:56  INFO BasePage.py input_text [ line:88 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;) 输入内容：18684720553
+ Tue, 13 Nov 2018 15:57:56  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;password&apos;]&quot;)
+ Tue, 13 Nov 2018 15:57:56  INFO BasePage.py input_text [ line:88 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;password&apos;]&quot;) 输入内容：
+ Tue, 13 Nov 2018 15:57:56  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//button[@type=&apos;button&apos;]&quot;)
+ Tue, 13 Nov 2018 15:57:56  INFO BasePage.py click_element [ line:104 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//button[@type=&apos;button&apos;]&quot;) 点击事件。
+ Tue, 13 Nov 2018 15:57:56  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆区域错误提示：开始查找元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;form-error-info&quot;]&apos;)
+ Tue, 13 Nov 2018 15:57:56  INFO BasePage.py get_text [ line:139 ] 登陆页面_登陆区域错误提示：获取元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;form-error-info&quot;]&apos;) 的文本内容
+ Tue, 13 Nov 2018 15:57:56  INFO BasePage.py get_text [ line:142 ] 登陆页面_登陆区域错误提示：元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;form-error-info&quot;]&apos;) 的文本内容为：请输入密码
+ Tue, 13 Nov 2018 15:57:56  INFO conftest.py init_loginEnv [ line:28 ] =====用例后置：关闭谷歌浏览器会话=======
+</system-err></testcase><testcase classname="TestCases.test_login.TestLogin" file="TestCases\test_login.py" line="31" name="test_login_fail_noUser[data2]" time="9.069820165634155"><system-out>==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;e07a673ef8fdaa3d11ffe369b86d9f6f&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;acceptInsecureCerts&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;browserName&quot;:&quot;chrome&quot;,&quot;chrome&quot;:{&quot;chromedriverVersion&quot;:&quot;2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5)&quot;,&quot;userDataDir&quot;:&quot;C:\\Users\\muji\\AppData\\Local\\Temp\\scoped_dir21972_30499&quot;},&quot;cssSelectorsEnabled&quot;:true,&quot;databaseEnabled&quot;:false,&quot;goog:chromeOptions&quot;:{&quot;debuggerAddress&quot;:&quot;localhost:59923&quot;},&quot;handlesAlerts&quot;:true,&quot;hasTouchScreen&quot;:false,&quot;javascriptEnabled&quot;:true,&quot;locationContextEnabled&quot;:true,&quot;mobileEmulationEnabled&quot;:false,&quot;nativeEvents&quot;:true,&quot;networkConnectionEnabled&quot;:false,&quot;pageLoadStrategy&quot;:&quot;normal&quot;,&quot;platform&quot;:&quot;Windows NT&quot;,&quot;rotatable&quot;:false,&quot;setWindowRect&quot;:true,&quot;takesHeapSnapshot&quot;:true,&quot;takesScreenshot&quot;:true,&quot;unexpectedAlertBehaviour&quot;:&quot;&quot;,&quot;version&quot;:&quot;69.0.3497.92&quot;,&quot;webStorageEnabled&quot;:true}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;e07a673ef8fdaa3d11ffe369b86d9f6f&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;height&quot;:840,&quot;width&quot;:1552,&quot;x&quot;:-8,&quot;y&quot;:-8}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;e07a673ef8fdaa3d11ffe369b86d9f6f&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;e07a673ef8fdaa3d11ffe369b86d9f6f&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.3198299675155192-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;e07a673ef8fdaa3d11ffe369b86d9f6f&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;e07a673ef8fdaa3d11ffe369b86d9f6f&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.3198299675155192-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;e07a673ef8fdaa3d11ffe369b86d9f6f&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;e07a673ef8fdaa3d11ffe369b86d9f6f&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.3198299675155192-2&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;e07a673ef8fdaa3d11ffe369b86d9f6f&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;e07a673ef8fdaa3d11ffe369b86d9f6f&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.3198299675155192-3&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;e07a673ef8fdaa3d11ffe369b86d9f6f&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;e07a673ef8fdaa3d11ffe369b86d9f6f&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.3198299675155192-4&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;e07a673ef8fdaa3d11ffe369b86d9f6f&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;请输入正确的手机号&quot;}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;e07a673ef8fdaa3d11ffe369b86d9f6f&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+</system-out><system-err> Tue, 13 Nov 2018 15:57:58  INFO conftest.py init_loginEnv [ line:21 ] =====用例前置：初始化浏览器会话:打开谷歌浏览器，访问系统网址：http://120.79.176.157:8012/Index/login.html=======
+ Tue, 13 Nov 2018 15:58:04  INFO test_login.py test_login_fail_noUser [ line:34 ] *********登陆用例：异常场景：没有用户名/没有密码/用户名格式不正确*********
+ Tue, 13 Nov 2018 15:58:04  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:58:05  INFO BasePage.py wait_eleVisible [ line:32 ] 登陆页面_登陆功能: 元素 (&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;) 已可见,等待起始时间：2018-11-13 15:58:04.994135,等待时长：0
+ Tue, 13 Nov 2018 15:58:05  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;)
+ Tue, 13 Nov 2018 15:58:05  INFO BasePage.py input_text [ line:88 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;) 输入内容：186847208
+ Tue, 13 Nov 2018 15:58:05  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;password&apos;]&quot;)
+ Tue, 13 Nov 2018 15:58:05  INFO BasePage.py input_text [ line:88 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;password&apos;]&quot;) 输入内容：python
+ Tue, 13 Nov 2018 15:58:05  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//button[@type=&apos;button&apos;]&quot;)
+ Tue, 13 Nov 2018 15:58:05  INFO BasePage.py click_element [ line:104 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//button[@type=&apos;button&apos;]&quot;) 点击事件。
+ Tue, 13 Nov 2018 15:58:05  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆区域错误提示：开始查找元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;form-error-info&quot;]&apos;)
+ Tue, 13 Nov 2018 15:58:05  INFO BasePage.py get_text [ line:139 ] 登陆页面_登陆区域错误提示：获取元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;form-error-info&quot;]&apos;) 的文本内容
+ Tue, 13 Nov 2018 15:58:05  INFO BasePage.py get_text [ line:142 ] 登陆页面_登陆区域错误提示：元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;form-error-info&quot;]&apos;) 的文本内容为：请输入正确的手机号
+ Tue, 13 Nov 2018 15:58:05  INFO conftest.py init_loginEnv [ line:28 ] =====用例后置：关闭谷歌浏览器会话=======
+</system-err></testcase><testcase classname="TestCases.test_login.TestLogin" file="TestCases\test_login.py" line="43" name="test_login_wrongLoginInfo[caseData0]" time="9.095710277557373"><system-out>==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;7221ca7a6126a0e33136a934107ae94c&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;acceptInsecureCerts&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;browserName&quot;:&quot;chrome&quot;,&quot;chrome&quot;:{&quot;chromedriverVersion&quot;:&quot;2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5)&quot;,&quot;userDataDir&quot;:&quot;C:\\Users\\muji\\AppData\\Local\\Temp\\scoped_dir23472_32057&quot;},&quot;cssSelectorsEnabled&quot;:true,&quot;databaseEnabled&quot;:false,&quot;goog:chromeOptions&quot;:{&quot;debuggerAddress&quot;:&quot;localhost:59953&quot;},&quot;handlesAlerts&quot;:true,&quot;hasTouchScreen&quot;:false,&quot;javascriptEnabled&quot;:true,&quot;locationContextEnabled&quot;:true,&quot;mobileEmulationEnabled&quot;:false,&quot;nativeEvents&quot;:true,&quot;networkConnectionEnabled&quot;:false,&quot;pageLoadStrategy&quot;:&quot;normal&quot;,&quot;platform&quot;:&quot;Windows NT&quot;,&quot;rotatable&quot;:false,&quot;setWindowRect&quot;:true,&quot;takesHeapSnapshot&quot;:true,&quot;takesScreenshot&quot;:true,&quot;unexpectedAlertBehaviour&quot;:&quot;&quot;,&quot;version&quot;:&quot;69.0.3497.92&quot;,&quot;webStorageEnabled&quot;:true}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;7221ca7a6126a0e33136a934107ae94c&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;height&quot;:840,&quot;width&quot;:1552,&quot;x&quot;:-8,&quot;y&quot;:-8}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;7221ca7a6126a0e33136a934107ae94c&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;7221ca7a6126a0e33136a934107ae94c&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.6798565400148358-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;7221ca7a6126a0e33136a934107ae94c&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;7221ca7a6126a0e33136a934107ae94c&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.6798565400148358-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;7221ca7a6126a0e33136a934107ae94c&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;7221ca7a6126a0e33136a934107ae94c&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.6798565400148358-2&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;7221ca7a6126a0e33136a934107ae94c&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;7221ca7a6126a0e33136a934107ae94c&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.6798565400148358-3&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;7221ca7a6126a0e33136a934107ae94c&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;7221ca7a6126a0e33136a934107ae94c&quot;,&quot;status&quot;:7,&quot;value&quot;:{&quot;message&quot;:&quot;no such element: Unable to locate element: {\&quot;method\&quot;:\&quot;xpath\&quot;,\&quot;selector\&quot;:\&quot;//div[@class=\&quot;layui-layer-content\&quot;]\&quot;}\n  (Session info: chrome=69.0.3497.92)\n  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64)&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;7221ca7a6126a0e33136a934107ae94c&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.6798565400148358-4&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;7221ca7a6126a0e33136a934107ae94c&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;7221ca7a6126a0e33136a934107ae94c&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.6798565400148358-4&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;7221ca7a6126a0e33136a934107ae94c&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;帐号或密码错误!&quot;}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;7221ca7a6126a0e33136a934107ae94c&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+</system-out><system-err> Tue, 13 Nov 2018 15:58:08  INFO conftest.py init_loginEnv [ line:21 ] =====用例前置：初始化浏览器会话:打开谷歌浏览器，访问系统网址：http://120.79.176.157:8012/Index/login.html=======
+ Tue, 13 Nov 2018 15:58:13  INFO test_login.py test_login_wrongLoginInfo [ line:46 ] *********登陆用例：异常场景：错误的密码/用户尚未注册*********
+ Tue, 13 Nov 2018 15:58:13  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:58:13  INFO BasePage.py wait_eleVisible [ line:32 ] 登陆页面_登陆功能: 元素 (&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;) 已可见,等待起始时间：2018-11-13 15:58:13.737774,等待时长：0
+ Tue, 13 Nov 2018 15:58:13  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;)
+ Tue, 13 Nov 2018 15:58:13  INFO BasePage.py input_text [ line:88 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;) 输入内容：18684720553
+ Tue, 13 Nov 2018 15:58:13  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;password&apos;]&quot;)
+ Tue, 13 Nov 2018 15:58:14  INFO BasePage.py input_text [ line:88 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;password&apos;]&quot;) 输入内容：python111
+ Tue, 13 Nov 2018 15:58:14  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//button[@type=&apos;button&apos;]&quot;)
+ Tue, 13 Nov 2018 15:58:14  INFO BasePage.py click_element [ line:104 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//button[@type=&apos;button&apos;]&quot;) 点击事件。
+ Tue, 13 Nov 2018 15:58:14  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:58:14  INFO BasePage.py wait_eleVisible [ line:32 ] 登陆页面_获取页面正中间错误信息: 元素 (&apos;xpath&apos;, &apos;//div[@class=&quot;layui-layer-content&quot;]&apos;) 已可见,等待起始时间：2018-11-13 15:58:14.288478,等待时长：0
+ Tue, 13 Nov 2018 15:58:14  INFO BasePage.py get_element [ line:60 ] 登陆页面_获取页面正中间错误信息：开始查找元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;layui-layer-content&quot;]&apos;)
+ Tue, 13 Nov 2018 15:58:14  INFO BasePage.py get_text [ line:139 ] 登陆页面_获取页面正中间错误信息：获取元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;layui-layer-content&quot;]&apos;) 的文本内容
+ Tue, 13 Nov 2018 15:58:14  INFO BasePage.py get_text [ line:142 ] 登陆页面_获取页面正中间错误信息：元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;layui-layer-content&quot;]&apos;) 的文本内容为：帐号或密码错误!
+ Tue, 13 Nov 2018 15:58:14  INFO conftest.py init_loginEnv [ line:28 ] =====用例后置：关闭谷歌浏览器会话=======
+</system-err></testcase><testcase classname="TestCases.test_login.TestLogin" file="TestCases\test_login.py" line="43" name="test_login_wrongLoginInfo[caseData1]" time="9.48500680923462"><system-out>==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;a4996190264ecc8b6159be15d98bf1ca&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;acceptInsecureCerts&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;browserName&quot;:&quot;chrome&quot;,&quot;chrome&quot;:{&quot;chromedriverVersion&quot;:&quot;2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5)&quot;,&quot;userDataDir&quot;:&quot;C:\\Users\\muji\\AppData\\Local\\Temp\\scoped_dir19460_11830&quot;},&quot;cssSelectorsEnabled&quot;:true,&quot;databaseEnabled&quot;:false,&quot;goog:chromeOptions&quot;:{&quot;debuggerAddress&quot;:&quot;localhost:59986&quot;},&quot;handlesAlerts&quot;:true,&quot;hasTouchScreen&quot;:false,&quot;javascriptEnabled&quot;:true,&quot;locationContextEnabled&quot;:true,&quot;mobileEmulationEnabled&quot;:false,&quot;nativeEvents&quot;:true,&quot;networkConnectionEnabled&quot;:false,&quot;pageLoadStrategy&quot;:&quot;normal&quot;,&quot;platform&quot;:&quot;Windows NT&quot;,&quot;rotatable&quot;:false,&quot;setWindowRect&quot;:true,&quot;takesHeapSnapshot&quot;:true,&quot;takesScreenshot&quot;:true,&quot;unexpectedAlertBehaviour&quot;:&quot;&quot;,&quot;version&quot;:&quot;69.0.3497.92&quot;,&quot;webStorageEnabled&quot;:true}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;a4996190264ecc8b6159be15d98bf1ca&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;height&quot;:840,&quot;width&quot;:1552,&quot;x&quot;:-8,&quot;y&quot;:-8}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;a4996190264ecc8b6159be15d98bf1ca&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;a4996190264ecc8b6159be15d98bf1ca&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.11532398156487478-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;a4996190264ecc8b6159be15d98bf1ca&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;a4996190264ecc8b6159be15d98bf1ca&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.11532398156487478-1&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;a4996190264ecc8b6159be15d98bf1ca&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;a4996190264ecc8b6159be15d98bf1ca&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.11532398156487478-2&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;a4996190264ecc8b6159be15d98bf1ca&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;a4996190264ecc8b6159be15d98bf1ca&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.11532398156487478-3&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;a4996190264ecc8b6159be15d98bf1ca&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;a4996190264ecc8b6159be15d98bf1ca&quot;,&quot;status&quot;:7,&quot;value&quot;:{&quot;message&quot;:&quot;no such element: Unable to locate element: {\&quot;method\&quot;:\&quot;xpath\&quot;,\&quot;selector\&quot;:\&quot;//div[@class=\&quot;layui-layer-content\&quot;]\&quot;}\n  (Session info: chrome=69.0.3497.92)\n  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64)&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;a4996190264ecc8b6159be15d98bf1ca&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.11532398156487478-4&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;a4996190264ecc8b6159be15d98bf1ca&quot;,&quot;status&quot;:0,&quot;value&quot;:true}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;a4996190264ecc8b6159be15d98bf1ca&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;0.11532398156487478-4&quot;}}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;a4996190264ecc8b6159be15d98bf1ca&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;此账号没有经过授权，请联系管理员!&quot;}
+0
+==========json中decoder.py文件 343行==== {&quot;sessionId&quot;:&quot;a4996190264ecc8b6159be15d98bf1ca&quot;,&quot;status&quot;:0,&quot;value&quot;:null}
+0
+</system-out><system-err> Tue, 13 Nov 2018 15:58:17  INFO conftest.py init_loginEnv [ line:21 ] =====用例前置：初始化浏览器会话:打开谷歌浏览器，访问系统网址：http://120.79.176.157:8012/Index/login.html=======
+ Tue, 13 Nov 2018 15:58:23  INFO test_login.py test_login_wrongLoginInfo [ line:46 ] *********登陆用例：异常场景：错误的密码/用户尚未注册*********
+ Tue, 13 Nov 2018 15:58:23  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:58:23  INFO BasePage.py wait_eleVisible [ line:32 ] 登陆页面_登陆功能: 元素 (&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;) 已可见,等待起始时间：2018-11-13 15:58:23.285141,等待时长：0
+ Tue, 13 Nov 2018 15:58:23  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;)
+ Tue, 13 Nov 2018 15:58:23  INFO BasePage.py input_text [ line:88 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;phone&apos;]&quot;) 输入内容：18600001100
+ Tue, 13 Nov 2018 15:58:23  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;password&apos;]&quot;)
+ Tue, 13 Nov 2018 15:58:23  INFO BasePage.py input_text [ line:88 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//input[@name=&apos;password&apos;]&quot;) 输入内容：python
+ Tue, 13 Nov 2018 15:58:23  INFO BasePage.py get_element [ line:60 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &quot;//button[@type=&apos;button&apos;]&quot;)
+ Tue, 13 Nov 2018 15:58:23  INFO BasePage.py click_element [ line:104 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &quot;//button[@type=&apos;button&apos;]&quot;) 点击事件。
+ Tue, 13 Nov 2018 15:58:23  INFO BasePage.py wait_eleVisible [ line:25 ] 等待元素可见。
+ Tue, 13 Nov 2018 15:58:24  INFO BasePage.py wait_eleVisible [ line:32 ] 登陆页面_获取页面正中间错误信息: 元素 (&apos;xpath&apos;, &apos;//div[@class=&quot;layui-layer-content&quot;]&apos;) 已可见,等待起始时间：2018-11-13 15:58:23.838830,等待时长：0
+ Tue, 13 Nov 2018 15:58:24  INFO BasePage.py get_element [ line:60 ] 登陆页面_获取页面正中间错误信息：开始查找元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;layui-layer-content&quot;]&apos;)
+ Tue, 13 Nov 2018 15:58:24  INFO BasePage.py get_text [ line:139 ] 登陆页面_获取页面正中间错误信息：获取元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;layui-layer-content&quot;]&apos;) 的文本内容
+ Tue, 13 Nov 2018 15:58:24  INFO BasePage.py get_text [ line:142 ] 登陆页面_获取页面正中间错误信息：元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;layui-layer-content&quot;]&apos;) 的文本内容为：此账号没有经过授权，请联系管理员!
+ Tue, 13 Nov 2018 15:58:24  INFO conftest.py init_loginEnv [ line:28 ] =====用例后置：关闭谷歌浏览器会话=======
+</system-err></testcase></testsuite>

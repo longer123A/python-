@@ -1,0 +1,23 @@
+fixture:
+conftest.py  == pytest自动识别的文件。名字不可以更改。存放fixtures。可以放多个。
+一个fixture表示  一个前置和后置。
+可以放多个。
+
+实现fixtures:
+装饰器+函数实现
+@pytest.fixture
+yeild  前置和后置和分界线。
+yield 返回值
+
+调用的时候：测试用例/测试类的前面
+@pytest.mark.usefixtures("fixture函数名称")
+
+PO
+locator  pageobjects(页面的功能函数设计)   testdatas   testcases
+testcase = pageobjects +  testdatas
+
+1、basepage  ==  日志、失败有截图、基本的webdriver做了封装、异常处理
+2、pytest  ==  用例筛选方便、参数化(ddt)、fixtures(前置/后置==公有化)、重运行机制、自动发现用例、assert断言、html报告-按时间排序/用例名称排序
+
+selenium webdriver+PO+pytest
+优化了页面对象，提取了basepage,封装基本操作，增加了日志和失败截图。

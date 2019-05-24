@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Test Report</title>
+    <link href="assets/style.css" rel="stylesheet" type="text/css"/></head>
+  <body onLoad="init()">
+    <script>/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+
+function toArray(iter) {
+    if (iter === null) {
+        return null;
+    }
+    return Array.prototype.slice.call(iter);
+}
+
+function find(selector, elem) {
+    if (!elem) {
+        elem = document;
+    }
+    return elem.querySelector(selector);
+}
+
+function find_all(selector, elem) {
+    if (!elem) {
+        elem = document;
+    }
+    return toArray(elem.querySelectorAll(selector));
+}
+
+function sort_column(elem) {
+    toggle_sort_states(elem);
+    var colIndex = toArray(elem.parentNode.childNodes).indexOf(elem);
+    var key;
+    if (elem.classList.contains('numeric')) {
+        key = key_num;
+    } else if (elem.classList.contains('result')) {
+        key = key_result;
+    } else {
+        key = key_alpha;
+    }
+    sort_table(elem, key(colIndex));
+}
+
+function show_all_extras() {
+    find_all('.col-result').forEach(show_extras);
+}
+
+function hide_all_extras() {
+    find_all('.col-result').forEach(hide_extras);
+}
+
+function show_extras(colresult_elem) {
+    var extras = colresult_elem.parentNode.nextElementSibling;
+    var expandcollapse = colresult_elem.firstElementChild;
+    extras.classList.remove("collapsed");
+    expandcollapse.classList.remove("expander");
+    expandcollapse.classList.add("collapser");
+}
+
+function hide_extras(colresult_elem) {
+    var extras = colresult_elem.parentNode.nextElementSibling;
+    var expandcollapse = colresult_elem.firstElementChild;
+    extras.classList.add("collapsed");
+    expandcollapse.classList.remove("collapser");
+    expandcollapse.classList.add("expander");
+}
+
+function show_filters() {
+    var filter_items = document.getElementsByClassName('filter');
+    for (var i = 0; i < filter_items.length; i++)
+        filter_items[i].hidden = false;
+}
+
+function add_collapse() {
+    // Add links for show/hide all
+    var resulttable = find('table#results-table');
+    var showhideall = document.createElement("p");
+    showhideall.innerHTML = '<a href="javascript:show_all_extras()">Show all details</a> / ' +
+                            '<a href="javascript:hide_all_extras()">Hide all details</a>';
+    resulttable.parentElement.insertBefore(showhideall, resulttable);
+
+    // Add show/hide link to each result
+    find_all('.col-result').forEach(function(elem) {
+        var collapsed = get_query_parameter('collapsed') || 'Passed';
+        var extras = elem.parentNode.nextElementSibling;
+        var expandcollapse = document.createElement("span");
+        if (collapsed.includes(elem.innerHTML)) {
+            extras.classList.add("collapsed");
+            expandcollapse.classList.add("expander");
+        } else {
+            expandcollapse.classList.add("collapser");
+        }
+        elem.appendChild(expandcollapse);
+
+        elem.addEventListener("click", function(event) {
+            if (event.currentTarget.parentNode.nextElementSibling.classList.contains("collapsed")) {
+                show_extras(event.currentTarget);
+            } else {
+                hide_extras(event.currentTarget);
+            }
+        });
+    })
+}
+
+function get_query_parameter(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+
+function init () {
+    reset_sort_headers();
+
+    add_collapse();
+
+    show_filters();
+
+    toggle_sort_states(find('.initial-sort'));
+
+    find_all('.sortable').forEach(function(elem) {
+        elem.addEventListener("click",
+                              function(event) {
+                                  sort_column(elem);
+                              }, false)
+    });
+
+};
+
+function sort_table(clicked, key_func) {
+    var rows = find_all('.results-table-row');
+    var reversed = !clicked.classList.contains('asc');
+    var sorted_rows = sort(rows, key_func, reversed);
+    /* Whole table is removed here because browsers acts much slower
+     * when appending existing elements.
+     */
+    var thead = document.getElementById("results-table-head");
+    document.getElementById('results-table').remove();
+    var parent = document.createElement("table");
+    parent.id = "results-table";
+    parent.appendChild(thead);
+    sorted_rows.forEach(function(elem) {
+        parent.appendChild(elem);
+    });
+    document.getElementsByTagName("BODY")[0].appendChild(parent);
+}
+
+function sort(items, key_func, reversed) {
+    var sort_array = items.map(function(item, i) {
+        return [key_func(item), i];
+    });
+    var multiplier = reversed ? -1 : 1;
+
+    sort_array.sort(function(a, b) {
+        var key_a = a[0];
+        var key_b = b[0];
+        return multiplier * (key_a >= key_b ? 1 : -1);
+    });
+
+    return sort_array.map(function(item) {
+        var index = item[1];
+        return items[index];
+    });
+}
+
+function key_alpha(col_index) {
+    return function(elem) {
+        return elem.childNodes[1].childNodes[col_index].firstChild.data.toLowerCase();
+    };
+}
+
+function key_num(col_index) {
+    return function(elem) {
+        return parseFloat(elem.childNodes[1].childNodes[col_index].firstChild.data);
+    };
+}
+
+function key_result(col_index) {
+    return function(elem) {
+        var strings = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed',
+                       'Skipped', 'Passed'];
+        return strings.indexOf(elem.childNodes[1].childNodes[col_index].firstChild.data);
+    };
+}
+
+function reset_sort_headers() {
+    find_all('.sort-icon').forEach(function(elem) {
+        elem.parentNode.removeChild(elem);
+    });
+    find_all('.sortable').forEach(function(elem) {
+        var icon = document.createElement("div");
+        icon.className = "sort-icon";
+        icon.textContent = "vvv";
+        elem.insertBefore(icon, elem.firstChild);
+        elem.classList.remove("desc", "active");
+        elem.classList.add("asc", "inactive");
+    });
+}
+
+function toggle_sort_states(elem) {
+    //if active, toggle between asc and desc
+    if (elem.classList.contains('active')) {
+        elem.classList.toggle('asc');
+        elem.classList.toggle('desc');
+    }
+
+    //if inactive, reset all other functions and add ascending active
+    if (elem.classList.contains('inactive')) {
+        reset_sort_headers();
+        elem.classList.remove('inactive');
+        elem.classList.add('active');
+    }
+}
+
+function is_all_rows_hidden(value) {
+  return value.hidden == false;
+}
+
+function filter_table(elem) {
+    var outcome_att = "data-test-result";
+    var outcome = elem.getAttribute(outcome_att);
+    class_outcome = outcome + " results-table-row";
+    var outcome_rows = document.getElementsByClassName(class_outcome);
+
+    for(var i = 0; i < outcome_rows.length; i++){
+        outcome_rows[i].hidden = !elem.checked;
+    }
+
+    var rows = find_all('.results-table-row').filter(is_all_rows_hidden);
+    var all_rows_hidden = rows.length == 0 ? true : false;
+    var not_found_message = document.getElementById("not-found-message");
+    not_found_message.hidden = !all_rows_hidden;
+}
+</script>
+    <h1>report.html</h1>
+    <p>Report generated on 04-May-2019 at 11:59:29 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v1.20.0</p>
+    <h2>Environment</h2>
+    <table id="environment">
+      <tr>
+        <td>JAVA_HOME</td>
+        <td>D:\JDK</td></tr>
+      <tr>
+        <td>Packages</td>
+        <td>{&apos;pytest&apos;: &apos;4.4.1&apos;, &apos;py&apos;: &apos;1.8.0&apos;, &apos;pluggy&apos;: &apos;0.9.0&apos;}</td></tr>
+      <tr>
+        <td>Platform</td>
+        <td>Windows-10-10.0.17763-SP0</td></tr>
+      <tr>
+        <td>Plugins</td>
+        <td>{&apos;metadata&apos;: &apos;1.8.0&apos;, &apos;html&apos;: &apos;1.20.0&apos;}</td></tr>
+      <tr>
+        <td>Python</td>
+        <td>3.7.3</td></tr></table>
+    <h2>Summary</h2>
+    <p>1 tests ran in 40.59 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <h2>Results</h2>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable result initial-sort" col="result">Result</th>
+          <th class="sortable" col="name">Test</th>
+          <th class="sortable numeric" col="duration">Duration</th>
+          <th>Links</th></tr>
+        <tr hidden="true" id="not-found-message">
+          <th colspan="4">No results found. Try to check the filters</th></tr></thead>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">TestCases/test_ruku.py::TestPutStorage::test_order_ng_month_rk</td>
+          <td class="col-duration">30.43</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">self = &lt;TestCases.test_ruku.TestPutStorage object at 0x00000271593A5F98&gt;<br/>login_web = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&quot;e52334b832d87b4d615e09d241b8c7d0&quot;)&gt;<br/><br/>    @pytest.mark.ng1<br/>    # [月结,半月结,周结,线下现结,电汇,款到发货,跨境宝支付,阿里账期,线上现结]<br/>    # NG 输入不通过原因  NG采购待处理<br/>    # 月结,<br/>    def test_order_ng_month_rk(self, login_web):<br/>        logging.info(&quot;*********入库：开始执行输入不通过原因，NG采购待处理用例*********&quot;)<br/>        number = random.randint(100000, 1000000)<br/>        PutSto = PutStor(login_web)  # 库存管理方法<br/>        GetOrder = GetOrdervalue(login_web)  # 采购页面方法，包含BasePage<br/>        listp = ListPu(login_web)<br/>        sca = Scan(login_web)<br/>        ng=NgPending(login_web)<br/>    <br/>        time.sleep(4)<br/>        # 点击库存管理按钮<br/>        PutSto.click_stocon()<br/>        # 点击建议采购按钮<br/>        PutSto.click_suging()<br/>        # 增加筛选订单条件<br/>        GetOrder.filtrate_order(&#x27;月结&#x27;)<br/>        # 获取订单SKU<br/>&gt;       sku = GetOrder.get_order_sku()<br/><br/>TestCases\test_ruku.py:1269: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/>PageObjects\suggest_jianyi_page.py:11: in get_order_sku<br/>    self.wait_eleVisible(loc.SKU,model=name)<br/>Common\BasePage.py:27: in wait_eleVisible<br/>    WebDriverWait(self.driver,wait_times,poll_frequency).until(EC.visibility_of_element_located(locator))<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/><br/>self = &lt;selenium.webdriver.support.wait.WebDriverWait (session=&quot;e52334b832d87b4d615e09d241b8c7d0&quot;)&gt;<br/>method = &lt;selenium.webdriver.support.expected_conditions.visibility_of_element_located object at 0x000002715957E5F8&gt;<br/>message = &#x27;&#x27;<br/><br/>    def until(self, method, message=&#x27;&#x27;):<br/>        &quot;&quot;&quot;Calls the method provided with the driver as an argument until the \<br/>        return value is not False.&quot;&quot;&quot;<br/>        screen = None<br/>        stacktrace = None<br/>    <br/>        end_time = time.time() + self._timeout<br/>        while True:<br/>            try:<br/>                value = method(self._driver)<br/>                if value:<br/>                    return value<br/>            except self._ignored_exceptions as exc:<br/>                screen = getattr(exc, &#x27;screen&#x27;, None)<br/>                stacktrace = getattr(exc, &#x27;stacktrace&#x27;, None)<br/>            time.sleep(self._poll)<br/>            if time.time() &gt; end_time:<br/>                break<br/>&gt;       raise TimeoutException(message, screen, stacktrace)<br/><span class="error">E       selenium.common.exceptions.TimeoutException: Message:</span><br/><br/>C:\Users\test\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py:80: TimeoutException<br/>---------------------------- Captured stderr setup -----------------------------<br/> Sat, 04 May 2019 11:58:49  INFO conftest.py login_web [ line:37 ] =====用例前置：初始化浏览器会话，登陆WEB系统=======
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py wait_eleVisible [ line:30 ] 登陆页面_登陆功能: 元素 (&#x27;xpath&#x27;, &#x27;//*[@id=&quot;username&quot;]&#x27;) 已可见,等待起始时间：2019-05-04 11:58:55.803730,等待时长：0
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py get_element [ line:58 ] 登陆页面_登陆功能：开始查找元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;username&quot;]&#x27;)
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py input_text [ line:85 ] 登陆页面_登陆功能: 元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;username&quot;]&#x27;) 输入内容：it_test
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py get_element [ line:58 ] 登陆页面_登陆功能：开始查找元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;password&quot;]&#x27;)
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py input_text [ line:85 ] 登陆页面_登陆功能: 元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;password&quot;]&#x27;) 输入内容：it_test
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py get_element [ line:58 ] 登陆页面_登陆功能：开始查找元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;captcha&quot;]&#x27;)
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py input_text [ line:85 ] 登陆页面_登陆功能: 元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;captcha&quot;]&#x27;) 输入内容：1111
+ Sat, 04 May 2019 11:58:56  INFO BasePage.py get_element [ line:58 ] 登陆页面_登陆功能：开始查找元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;login-btn&quot;]&#x27;)
+ Sat, 04 May 2019 11:58:56  INFO BasePage.py click_element [ line:101 ] 登陆页面_登陆功能: 元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;login-btn&quot;]&#x27;) 点击事件。
+------------------------------ Captured log setup ------------------------------<br/>conftest.py                 37 INFO     =====用例前置：初始化浏览器会话，登陆WEB系统=======
+BasePage.py                 23 INFO     等待元素可见。
+BasePage.py                 30 INFO     登陆页面_登陆功能: 元素 (&#x27;xpath&#x27;, &#x27;//*[@id=&quot;username&quot;]&#x27;) 已可见,等待起始时间：2019-05-04 11:58:55.803730,等待时长：0
+BasePage.py                 58 INFO     登陆页面_登陆功能：开始查找元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;username&quot;]&#x27;)
+BasePage.py                 85 INFO     登陆页面_登陆功能: 元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;username&quot;]&#x27;) 输入内容：it_test
+BasePage.py                 58 INFO     登陆页面_登陆功能：开始查找元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;password&quot;]&#x27;)
+BasePage.py                 85 INFO     登陆页面_登陆功能: 元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;password&quot;]&#x27;) 输入内容：it_test
+BasePage.py                 58 INFO     登陆页面_登陆功能：开始查找元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;captcha&quot;]&#x27;)
+BasePage.py                 85 INFO     登陆页面_登陆功能: 元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;captcha&quot;]&#x27;) 输入内容：1111
+BasePage.py                 58 INFO     登陆页面_登陆功能：开始查找元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;login-btn&quot;]&#x27;)
+BasePage.py                101 INFO     登陆页面_登陆功能: 元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;login-btn&quot;]&#x27;) 点击事件。----------------------------- Captured stderr call -----------------------------<br/> Sat, 04 May 2019 11:58:56  INFO test_ruku.py test_order_ng_month_rk [ line:1253 ] *********入库：开始执行输入不通过原因，NG采购待处理用例*********
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py wait_eleVisible [ line:30 ] 点击库存管理按钮: 元素 (&#x27;xpath&#x27;, &#x27;//*[@id=&quot;menu_11000000&quot;]&#x27;) 已可见,等待起始时间：2019-05-04 11:59:00.212778,等待时长：0
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py get_element [ line:58 ] 点击库存管理按钮：开始查找元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;menu_11000000&quot;]&#x27;)
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py click_element [ line:101 ] 点击库存管理按钮: 元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;menu_11000000&quot;]&#x27;) 点击事件。
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py wait_eleVisible [ line:30 ] 点击建议采购按钮: 元素 (&#x27;xpath&#x27;, &#x27;//*[@id=&quot;menu_11131400&quot;]&#x27;) 已可见,等待起始时间：2019-05-04 11:59:00.342809,等待时长：0
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py get_element [ line:58 ] 点击建议采购按钮：开始查找元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;menu_11131400&quot;]&#x27;)
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py click_element [ line:101 ] 点击建议采购按钮: 元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;menu_11131400&quot;]&#x27;) 点击事件。
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py wait_eleVisible [ line:30 ] 订单筛选: 元素 (&#x27;xpath&#x27;, &#x27;//*[@name=&quot;query.supplierQuery.paymentMethod&quot;]&#x27;) 已可见,等待起始时间：2019-05-04 11:59:06.624266,等待时长：0
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py select [ line:136 ] (&#x27;xpath&#x27;, &#x27;//*[@name=&quot;query.supplierQuery.paymentMethod&quot;]&#x27;):订单筛选select列表操作
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py get_element [ line:58 ] 订单筛选：开始查找元素：(&#x27;xpath&#x27;, &#x27;//*[@name=&quot;query.supplierQuery.paymentMethod&quot;]&#x27;)
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py select [ line:141 ] select列表操作完毕月结
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py select [ line:136 ] (&#x27;xpath&#x27;, &#x27;//*[@name=&quot;query.listingStatus&quot;]&#x27;):订单筛选select列表操作
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py get_element [ line:58 ] 订单筛选：开始查找元素：(&#x27;xpath&#x27;, &#x27;//*[@name=&quot;query.listingStatus&quot;]&#x27;)
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py select [ line:141 ] select列表操作完毕上架
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py select [ line:136 ] (&#x27;xpath&#x27;, &#x27;//*[@name=&quot;query.hasInTransit&quot;]&#x27;):订单筛选select列表操作
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py get_element [ line:58 ] 订单筛选：开始查找元素：(&#x27;xpath&#x27;, &#x27;//*[@name=&quot;query.hasInTransit&quot;]&#x27;)
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py select [ line:141 ] select列表操作完毕否
+ Sat, 04 May 2019 11:59:07  INFO BasePage.py get_element [ line:58 ] 订单筛选：开始查找元素：(&#x27;xpath&#x27;, &#x27;//i[@class=&quot;icon-search&quot;]&#x27;)
+ Sat, 04 May 2019 11:59:07  INFO BasePage.py click_element [ line:101 ] 订单筛选: 元素：(&#x27;xpath&#x27;, &#x27;//i[@class=&quot;icon-search&quot;]&#x27;) 点击事件。
+ Sat, 04 May 2019 11:59:10  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Sat, 04 May 2019 11:59:26  ERROR BasePage.py wait_eleVisible [ line:33 ] 等待元素可见异常
+Traceback (most recent call last):
+  File &quot;D:\pythonxu\python_ERP1\Common\BasePage.py&quot;, line 27, in wait_eleVisible
+    WebDriverWait(self.driver,wait_times,poll_frequency).until(EC.visibility_of_element_located(locator))
+  File &quot;C:\Users\test\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py&quot;, line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Sat, 04 May 2019 11:59:26  INFO BasePage.py _screenshot [ line:200 ] 截图成功，图片路径为：D:\pythonxu\python_ERP1\ScreenShot/xu_2019-05-04-11-59-26_SKU.png
+------------------------------ Captured log call -------------------------------<br/>test_ruku.py              1253 INFO     *********入库：开始执行输入不通过原因，NG采购待处理用例*********
+BasePage.py                 23 INFO     等待元素可见。
+BasePage.py                 30 INFO     点击库存管理按钮: 元素 (&#x27;xpath&#x27;, &#x27;//*[@id=&quot;menu_11000000&quot;]&#x27;) 已可见,等待起始时间：2019-05-04 11:59:00.212778,等待时长：0
+BasePage.py                 58 INFO     点击库存管理按钮：开始查找元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;menu_11000000&quot;]&#x27;)
+BasePage.py                101 INFO     点击库存管理按钮: 元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;menu_11000000&quot;]&#x27;) 点击事件。
+BasePage.py                 23 INFO     等待元素可见。
+BasePage.py                 30 INFO     点击建议采购按钮: 元素 (&#x27;xpath&#x27;, &#x27;//*[@id=&quot;menu_11131400&quot;]&#x27;) 已可见,等待起始时间：2019-05-04 11:59:00.342809,等待时长：0
+BasePage.py                 58 INFO     点击建议采购按钮：开始查找元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;menu_11131400&quot;]&#x27;)
+BasePage.py                101 INFO     点击建议采购按钮: 元素：(&#x27;xpath&#x27;, &#x27;//*[@id=&quot;menu_11131400&quot;]&#x27;) 点击事件。
+BasePage.py                 23 INFO     等待元素可见。
+BasePage.py                 30 INFO     订单筛选: 元素 (&#x27;xpath&#x27;, &#x27;//*[@name=&quot;query.supplierQuery.paymentMethod&quot;]&#x27;) 已可见,等待起始时间：2019-05-04 11:59:06.624266,等待时长：0
+BasePage.py                136 INFO     (&#x27;xpath&#x27;, &#x27;//*[@name=&quot;query.supplierQuery.paymentMethod&quot;]&#x27;):订单筛选select列表操作
+BasePage.py                 58 INFO     订单筛选：开始查找元素：(&#x27;xpath&#x27;, &#x27;//*[@name=&quot;query.supplierQuery.paymentMethod&quot;]&#x27;)
+BasePage.py                141 INFO     select列表操作完毕月结
+BasePage.py                136 INFO     (&#x27;xpath&#x27;, &#x27;//*[@name=&quot;query.listingStatus&quot;]&#x27;):订单筛选select列表操作
+BasePage.py                 58 INFO     订单筛选：开始查找元素：(&#x27;xpath&#x27;, &#x27;//*[@name=&quot;query.listingStatus&quot;]&#x27;)
+BasePage.py                141 INFO     select列表操作完毕上架
+BasePage.py                136 INFO     (&#x27;xpath&#x27;, &#x27;//*[@name=&quot;query.hasInTransit&quot;]&#x27;):订单筛选select列表操作
+BasePage.py                 58 INFO     订单筛选：开始查找元素：(&#x27;xpath&#x27;, &#x27;//*[@name=&quot;query.hasInTransit&quot;]&#x27;)
+BasePage.py                141 INFO     select列表操作完毕否
+BasePage.py                 58 INFO     订单筛选：开始查找元素：(&#x27;xpath&#x27;, &#x27;//i[@class=&quot;icon-search&quot;]&#x27;)
+BasePage.py                101 INFO     订单筛选: 元素：(&#x27;xpath&#x27;, &#x27;//i[@class=&quot;icon-search&quot;]&#x27;) 点击事件。
+BasePage.py                 23 INFO     等待元素可见。
+BasePage.py                 33 ERROR    等待元素可见异常
+Traceback (most recent call last):
+  File &quot;D:\pythonxu\python_ERP1\Common\BasePage.py&quot;, line 27, in wait_eleVisible
+    WebDriverWait(self.driver,wait_times,poll_frequency).until(EC.visibility_of_element_located(locator))
+  File &quot;C:\Users\test\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py&quot;, line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+BasePage.py                200 INFO     截图成功，图片路径为：D:\pythonxu\python_ERP1\ScreenShot/xu_2019-05-04-11-59-26_SKU.png</div></td></tr></tbody></table></body></html>

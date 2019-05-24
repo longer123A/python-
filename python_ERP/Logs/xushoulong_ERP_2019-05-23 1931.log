@@ -1,0 +1,362 @@
+ Thu, 23 May 2019 19:31:03  INFO logger.py <module> [ line:23 ] 测试开始
+ Thu, 23 May 2019 19:31:04  INFO conftest.py login_web [ line:37 ] =====用例前置：初始化浏览器会话，登陆WEB系统=======
+ Thu, 23 May 2019 19:31:10  INFO login_page.py login [ line:16 ] 登陆页面_登陆功能
+ Thu, 23 May 2019 19:31:10  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:10  INFO BasePage.py wait_eleVisible [ line:30 ] 输入用户名: 元素 ('xpath', '//*[@id="username"]') 已可见,等待起始时间：2019-05-23 19:31:10.885143,等待时长：0
+ Thu, 23 May 2019 19:31:10  INFO BasePage.py get_element [ line:58 ] 输入用户名：开始查找元素：('xpath', '//*[@id="username"]')
+ Thu, 23 May 2019 19:31:10  INFO BasePage.py input_text [ line:86 ] 输入用户名: 元素：('xpath', '//*[@id="username"]') 输入内容：it_gongyingying
+ Thu, 23 May 2019 19:31:11  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:11  INFO BasePage.py wait_eleVisible [ line:30 ] 输入密码: 元素 ('xpath', '//*[@id="password"]') 已可见,等待起始时间：2019-05-23 19:31:11.029323,等待时长：0
+ Thu, 23 May 2019 19:31:11  INFO BasePage.py get_element [ line:58 ] 输入密码：开始查找元素：('xpath', '//*[@id="password"]')
+ Thu, 23 May 2019 19:31:11  INFO BasePage.py input_text [ line:86 ] 输入密码: 元素：('xpath', '//*[@id="password"]') 输入内容：111
+ Thu, 23 May 2019 19:31:11  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:11  INFO BasePage.py wait_eleVisible [ line:30 ] 输入验证码: 元素 ('xpath', '//*[@id="captcha"]') 已可见,等待起始时间：2019-05-23 19:31:11.119083,等待时长：0
+ Thu, 23 May 2019 19:31:11  INFO BasePage.py get_element [ line:58 ] 输入验证码：开始查找元素：('xpath', '//*[@id="captcha"]')
+ Thu, 23 May 2019 19:31:11  INFO BasePage.py input_text [ line:86 ] 输入验证码: 元素：('xpath', '//*[@id="captcha"]') 输入内容：1111
+ Thu, 23 May 2019 19:31:11  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:11  INFO BasePage.py wait_eleVisible [ line:30 ] 点击登录按钮: 元素 ('xpath', '//*[@id="login-btn"]') 已可见,等待起始时间：2019-05-23 19:31:11.220811,等待时长：0
+ Thu, 23 May 2019 19:31:11  INFO BasePage.py get_element [ line:58 ] 点击登录按钮：开始查找元素：('xpath', '//*[@id="login-btn"]')
+ Thu, 23 May 2019 19:31:11  INFO BasePage.py click_element [ line:104 ] 点击登录按钮: 元素：('xpath', '//*[@id="login-btn"]') 点击事件。
+ Thu, 23 May 2019 19:31:13  INFO test_quan.py test_permisva_anh [ line:31 ] *********权限：开始执行平台账号权限验证用例*********
+ Thu, 23 May 2019 19:31:13  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:13  INFO BasePage.py wait_eleVisible [ line:30 ] 点击待合并按钮: 元素 ('xpath', '//*[@id="status-deliver"]/a[2]') 已可见,等待起始时间：2019-05-23 19:31:13.371066,等待时长：0
+ Thu, 23 May 2019 19:31:13  INFO BasePage.py get_element [ line:58 ] 点击待合并按钮：开始查找元素：('xpath', '//*[@id="status-deliver"]/a[2]')
+ Thu, 23 May 2019 19:31:13  INFO BasePage.py click_element [ line:104 ] 点击待合并按钮: 元素：('xpath', '//*[@id="status-deliver"]/a[2]') 点击事件。
+ Thu, 23 May 2019 19:31:13  INFO BasePage.py window_switch [ line:172 ] 切换窗口位置-1，功能点窗口切换
+ Thu, 23 May 2019 19:31:13  INFO BasePage.py window_switch [ line:176 ] 窗口切换成功
+ Thu, 23 May 2019 19:31:15  INFO order_guanli_page.py new_order [ line:20 ] 点击新建订单按钮
+ Thu, 23 May 2019 19:31:15  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:16  INFO BasePage.py wait_eleVisible [ line:30 ] 点击新建按钮: 元素 ('xpath', "//div[@class='pull-left']") 已可见,等待起始时间：2019-05-23 19:31:15.599332,等待时长：1
+ Thu, 23 May 2019 19:31:16  INFO BasePage.py get_element [ line:58 ] 点击新建按钮：开始查找元素：('xpath', "//div[@class='pull-left']")
+ Thu, 23 May 2019 19:31:16  INFO BasePage.py click_element [ line:104 ] 点击新建按钮: 元素：('xpath', "//div[@class='pull-left']") 点击事件。
+ Thu, 23 May 2019 19:31:16  INFO BasePage.py window_switch [ line:172 ] 切换窗口位置-1，功能点窗口切换
+ Thu, 23 May 2019 19:31:16  INFO BasePage.py window_switch [ line:176 ] 窗口切换成功
+ Thu, 23 May 2019 19:31:18  INFO xinjian_page.py new_order_qx [ line:324 ] 随机到的数据：['Amazon', '6944686494', '许寿龙', 'United States(美国US)', 'Kansas', '555 Lexington Avenue, 10th Floor, Room 202', '92647']
+ Thu, 23 May 2019 19:31:18  INFO xinjian_page.py new_order_qx [ line:325 ] 新建订单
+ Thu, 23 May 2019 19:31:18  INFO BasePage.py select [ line:140 ] ('xpath', '//*[@id="platform-id"]'):平台选择select列表操作
+ Thu, 23 May 2019 19:31:18  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:20  INFO BasePage.py wait_eleVisible [ line:30 ] 平台选择: 元素 ('xpath', '//*[@id="platform-id"]') 已可见,等待起始时间：2019-05-23 19:31:18.911366,等待时长：1
+ Thu, 23 May 2019 19:31:20  INFO BasePage.py get_element [ line:58 ] 平台选择：开始查找元素：('xpath', '//*[@id="platform-id"]')
+ Thu, 23 May 2019 19:31:21  INFO BasePage.py select [ line:148 ] select列表操作完毕AliExpress
+ Thu, 23 May 2019 19:31:21  INFO BasePage.py select [ line:140 ] ('xpath', "//select[@class='input-xsmall  input-inline form-control']"):货币选择select列表操作
+ Thu, 23 May 2019 19:31:21  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:21  INFO BasePage.py wait_eleVisible [ line:30 ] 货币选择: 元素 ('xpath', "//select[@class='input-xsmall  input-inline form-control']") 已可见,等待起始时间：2019-05-23 19:31:21.618634,等待时长：0
+ Thu, 23 May 2019 19:31:21  INFO BasePage.py get_element [ line:58 ] 货币选择：开始查找元素：('xpath', "//select[@class='input-xsmall  input-inline form-control']")
+ Thu, 23 May 2019 19:31:23  INFO BasePage.py select [ line:148 ] select列表操作完毕VND
+ Thu, 23 May 2019 19:31:23  INFO BasePage.py select [ line:140 ] ('xpath', "//select[@name='order.logisticsType']"):select列表操作
+ Thu, 23 May 2019 19:31:23  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:23  INFO BasePage.py wait_eleVisible [ line:30 ] : 元素 ('xpath', "//select[@name='order.logisticsType']") 已可见,等待起始时间：2019-05-23 19:31:23.267366,等待时长：0
+ Thu, 23 May 2019 19:31:23  INFO BasePage.py get_element [ line:58 ] ：开始查找元素：('xpath', "//select[@name='order.logisticsType']")
+ Thu, 23 May 2019 19:31:24  INFO BasePage.py select [ line:148 ] select列表操作完毕4PX物流-新加坡挂号
+ Thu, 23 May 2019 19:31:25  INFO BasePage.py select [ line:140 ] ('xpath', '//*[@name="order.sellerId"]'):选择卖家账号select列表操作
+ Thu, 23 May 2019 19:31:25  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:25  INFO BasePage.py wait_eleVisible [ line:30 ] 选择卖家账号: 元素 ('xpath', '//*[@name="order.sellerId"]') 已可见,等待起始时间：2019-05-23 19:31:25.417876,等待时长：0
+ Thu, 23 May 2019 19:31:25  INFO BasePage.py get_element [ line:58 ] 选择卖家账号：开始查找元素：('xpath', '//*[@name="order.sellerId"]')
+ Thu, 23 May 2019 19:31:27  INFO BasePage.py select [ line:148 ] select列表操作完毕cn1521209980hxzg
+ Thu, 23 May 2019 19:31:27  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:27  INFO BasePage.py wait_eleVisible [ line:30 ] 日期选择: 元素 ('xpath', "//input[@name='order.paidDate']") 已可见,等待起始时间：2019-05-23 19:31:27.100464,等待时长：0
+ Thu, 23 May 2019 19:31:27  INFO BasePage.py get_element [ line:58 ] 日期选择：开始查找元素：('xpath', "//input[@name='order.paidDate']")
+ Thu, 23 May 2019 19:31:27  INFO BasePage.py click_element [ line:104 ] 日期选择: 元素：('xpath', "//input[@name='order.paidDate']") 点击事件。
+ Thu, 23 May 2019 19:31:27  INFO BasePage.py switchover_html [ line:159 ] 切换HTML页面
+ Thu, 23 May 2019 19:31:27  INFO BasePage.py switchover_html [ line:162 ] HTML页面切换成功
+ Thu, 23 May 2019 19:31:27  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:27  INFO BasePage.py wait_eleVisible [ line:30 ] 日期确认: 元素 ('xpath', '//*[@id="dpOkInput"]') 已可见,等待起始时间：2019-05-23 19:31:27.215146,等待时长：0
+ Thu, 23 May 2019 19:31:27  INFO BasePage.py get_element [ line:58 ] 日期确认：开始查找元素：('xpath', '//*[@id="dpOkInput"]')
+ Thu, 23 May 2019 19:31:27  INFO BasePage.py click_element [ line:104 ] 日期确认: 元素：('xpath', '//*[@id="dpOkInput"]') 点击事件。
+ Thu, 23 May 2019 19:31:28  INFO xinjian_page.py new_order_qx [ line:344 ] 订单号6944686494anhqx
+ Thu, 23 May 2019 19:31:28  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:28  INFO BasePage.py wait_eleVisible [ line:30 ] 输入平台订单号: 元素 ('xpath', '//*[@id="platform-order-id"]') 已可见,等待起始时间：2019-05-23 19:31:28.344652,等待时长：0
+ Thu, 23 May 2019 19:31:28  INFO BasePage.py get_element [ line:58 ] 输入平台订单号：开始查找元素：('xpath', '//*[@id="platform-order-id"]')
+ Thu, 23 May 2019 19:31:28  INFO BasePage.py input_text [ line:86 ] 输入平台订单号: 元素：('xpath', '//*[@id="platform-order-id"]') 输入内容：6944686494anhqx
+ Thu, 23 May 2019 19:31:29  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:29  INFO BasePage.py wait_eleVisible [ line:30 ] 选择添加商品: 元素 ('xpath', '//*[@id="tr-order-item-0"]/td[2]/button') 已可见,等待起始时间：2019-05-23 19:31:29.709925,等待时长：0
+ Thu, 23 May 2019 19:31:29  INFO BasePage.py get_element [ line:58 ] 选择添加商品：开始查找元素：('xpath', '//*[@id="tr-order-item-0"]/td[2]/button')
+ Thu, 23 May 2019 19:31:29  INFO BasePage.py click_element [ line:104 ] 选择添加商品: 元素：('xpath', '//*[@id="tr-order-item-0"]/td[2]/button') 点击事件。
+ Thu, 23 May 2019 19:31:36  INFO BasePage.py switchover_html [ line:159 ] 切换HTML页面
+ Thu, 23 May 2019 19:31:36  INFO BasePage.py switchover_html [ line:162 ] HTML页面切换成功
+ Thu, 23 May 2019 19:31:36  INFO BasePage.py select [ line:140 ] ('xpath', '//*[@id="productStatusId"]'):筛选订单正常select列表操作
+ Thu, 23 May 2019 19:31:36  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:36  INFO BasePage.py wait_eleVisible [ line:30 ] 筛选订单正常: 元素 ('xpath', '//*[@id="productStatusId"]') 已可见,等待起始时间：2019-05-23 19:31:36.928952,等待时长：0
+ Thu, 23 May 2019 19:31:36  INFO BasePage.py get_element [ line:58 ] 筛选订单正常：开始查找元素：('xpath', '//*[@id="productStatusId"]')
+ Thu, 23 May 2019 19:31:38  INFO BasePage.py select [ line:148 ] select列表操作完毕正常
+ Thu, 23 May 2019 19:31:38  INFO BasePage.py select [ line:140 ] ('xpath', '//*[@name="query.listingStatus"]'):筛选订单上架select列表操作
+ Thu, 23 May 2019 19:31:38  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:38  INFO BasePage.py wait_eleVisible [ line:30 ] 筛选订单上架: 元素 ('xpath', '//*[@name="query.listingStatus"]') 已可见,等待起始时间：2019-05-23 19:31:38.568704,等待时长：0
+ Thu, 23 May 2019 19:31:38  INFO BasePage.py get_element [ line:58 ] 筛选订单上架：开始查找元素：('xpath', '//*[@name="query.listingStatus"]')
+ Thu, 23 May 2019 19:31:40  INFO BasePage.py select [ line:148 ] select列表操作完毕上架
+ Thu, 23 May 2019 19:31:40  INFO BasePage.py select [ line:140 ] ('xpath', '//*[@id="warehouse-id"]'):选择仓库select列表操作
+ Thu, 23 May 2019 19:31:40  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:40  INFO BasePage.py wait_eleVisible [ line:30 ] 选择仓库: 元素 ('xpath', '//*[@id="warehouse-id"]') 已可见,等待起始时间：2019-05-23 19:31:40.683824,等待时长：0
+ Thu, 23 May 2019 19:31:40  INFO BasePage.py get_element [ line:58 ] 选择仓库：开始查找元素：('xpath', '//*[@id="warehouse-id"]')
+ Thu, 23 May 2019 19:31:42  INFO BasePage.py select [ line:148 ] select列表操作完毕大浪仓库
+ Thu, 23 May 2019 19:31:42  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:42  INFO BasePage.py wait_eleVisible [ line:30 ] 库存1输入: 元素 ('xpath', '//*[@name="query.fromStock"]') 已可见,等待起始时间：2019-05-23 19:31:42.285278,等待时长：0
+ Thu, 23 May 2019 19:31:42  INFO BasePage.py get_element [ line:58 ] 库存1输入：开始查找元素：('xpath', '//*[@name="query.fromStock"]')
+ Thu, 23 May 2019 19:31:42  INFO BasePage.py input_text [ line:86 ] 库存1输入: 元素：('xpath', '//*[@name="query.fromStock"]') 输入内容：100
+ Thu, 23 May 2019 19:31:42  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:42  INFO BasePage.py wait_eleVisible [ line:30 ] 库存2输入: 元素 ('xpath', '//*[@name="query.toStock"]') 已可见,等待起始时间：2019-05-23 19:31:42.402030,等待时长：0
+ Thu, 23 May 2019 19:31:42  INFO BasePage.py get_element [ line:58 ] 库存2输入：开始查找元素：('xpath', '//*[@name="query.toStock"]')
+ Thu, 23 May 2019 19:31:42  INFO BasePage.py input_text [ line:86 ] 库存2输入: 元素：('xpath', '//*[@name="query.toStock"]') 输入内容：1000
+ Thu, 23 May 2019 19:31:43  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:43  INFO BasePage.py wait_eleVisible [ line:30 ] 点击搜索按钮: 元素 ('xpath', '//*[@id="search-form"]//button[1]') 已可见,等待起始时间：2019-05-23 19:31:43.015384,等待时长：0
+ Thu, 23 May 2019 19:31:43  INFO BasePage.py get_element [ line:58 ] 点击搜索按钮：开始查找元素：('xpath', '//*[@id="search-form"]//button[1]')
+ Thu, 23 May 2019 19:31:43  INFO BasePage.py click_element [ line:104 ] 点击搜索按钮: 元素：('xpath', '//*[@id="search-form"]//button[1]') 点击事件。
+ Thu, 23 May 2019 19:31:58  INFO xinjian_page.py new_order_qx [ line:361 ] 选择的SKU是9
+ Thu, 23 May 2019 19:31:59  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:31:59  INFO BasePage.py wait_eleVisible [ line:30 ] 点击确认按钮: 元素 ('xpath', '//*[@data-id="ok"]') 已可见,等待起始时间：2019-05-23 19:31:59.398680,等待时长：0
+ Thu, 23 May 2019 19:31:59  INFO BasePage.py get_element [ line:58 ] 点击确认按钮：开始查找元素：('xpath', '//*[@data-id="ok"]')
+ Thu, 23 May 2019 19:31:59  INFO BasePage.py click_element [ line:104 ] 点击确认按钮: 元素：('xpath', '//*[@data-id="ok"]') 点击事件。
+ Thu, 23 May 2019 19:32:00  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:00  INFO BasePage.py wait_eleVisible [ line:30 ] 数量输入: 元素 ('xpath', "//input[@name='order.orderItems[0].saleQuantity']") 已可见,等待起始时间：2019-05-23 19:32:00.607186,等待时长：0
+ Thu, 23 May 2019 19:32:00  INFO BasePage.py get_element [ line:58 ] 数量输入：开始查找元素：('xpath', "//input[@name='order.orderItems[0].saleQuantity']")
+ Thu, 23 May 2019 19:32:00  INFO BasePage.py input_text [ line:86 ] 数量输入: 元素：('xpath', "//input[@name='order.orderItems[0].saleQuantity']") 输入内容：1
+ Thu, 23 May 2019 19:32:01  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:01  INFO BasePage.py wait_eleVisible [ line:30 ] 查询价格: 元素 ('xpath', '//*[@id="menu_11000000"]') 已可见,等待起始时间：2019-05-23 19:32:01.762089,等待时长：0
+ Thu, 23 May 2019 19:32:01  INFO BasePage.py get_element [ line:58 ] 查询价格：开始查找元素：('xpath', '//*[@id="menu_11000000"]')
+ Thu, 23 May 2019 19:32:01  INFO BasePage.py click_element [ line:104 ] 查询价格: 元素：('xpath', '//*[@id="menu_11000000"]') 点击事件。
+ Thu, 23 May 2019 19:32:02  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:02  INFO BasePage.py wait_eleVisible [ line:30 ] 查询价格: 元素 ('xpath', '//*[@id="menu_11101200"]') 已可见,等待起始时间：2019-05-23 19:32:02.020875,等待时长：0
+ Thu, 23 May 2019 19:32:02  INFO BasePage.py get_element [ line:58 ] 查询价格：开始查找元素：('xpath', '//*[@id="menu_11101200"]')
+ Thu, 23 May 2019 19:32:02  INFO BasePage.py click_element [ line:104 ] 查询价格: 元素：('xpath', '//*[@id="menu_11101200"]') 点击事件。
+ Thu, 23 May 2019 19:32:05  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:05  INFO BasePage.py wait_eleVisible [ line:30 ] 查询价格: 元素 ('xpath', '//*[@id="product-sku"]') 已可见,等待起始时间：2019-05-23 19:32:05.017685,等待时长：0
+ Thu, 23 May 2019 19:32:05  INFO BasePage.py get_element [ line:58 ] 查询价格：开始查找元素：('xpath', '//*[@id="product-sku"]')
+ Thu, 23 May 2019 19:32:05  INFO BasePage.py input_text [ line:86 ] 查询价格: 元素：('xpath', '//*[@id="product-sku"]') 输入内容：LXL4082601C
+ Thu, 23 May 2019 19:32:05  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:05  INFO BasePage.py wait_eleVisible [ line:30 ] 查询价格: 元素 ('xpath', '//*[@class="icon-search"]') 已可见,等待起始时间：2019-05-23 19:32:05.195565,等待时长：0
+ Thu, 23 May 2019 19:32:05  INFO BasePage.py get_element [ line:58 ] 查询价格：开始查找元素：('xpath', '//*[@class="icon-search"]')
+ Thu, 23 May 2019 19:32:05  INFO BasePage.py click_element [ line:104 ] 查询价格: 元素：('xpath', '//*[@class="icon-search"]') 点击事件。
+ Thu, 23 May 2019 19:32:07  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:07  INFO BasePage.py wait_eleVisible [ line:30 ] 查询价格: 元素 ('xpath', '//*[@id="data-list"]//span[51]/a') 已可见,等待起始时间：2019-05-23 19:32:07.444854,等待时长：0
+ Thu, 23 May 2019 19:32:07  INFO BasePage.py get_element [ line:58 ] 查询价格：开始查找元素：('xpath', '//*[@id="data-list"]//span[51]/a')
+ Thu, 23 May 2019 19:32:07  INFO BasePage.py click_element [ line:104 ] 查询价格: 元素：('xpath', '//*[@id="data-list"]//span[51]/a') 点击事件。
+ Thu, 23 May 2019 19:32:08  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:08  INFO BasePage.py wait_eleVisible [ line:30 ] 查询价格: 元素 ('xpath', '//*[@id="data-list"]//td[4]/div[2]') 已可见,等待起始时间：2019-05-23 19:32:08.601256,等待时长：0
+ Thu, 23 May 2019 19:32:08  INFO BasePage.py get_element [ line:58 ] 查询价格：开始查找元素：('xpath', '//*[@id="data-list"]//td[4]/div[2]')
+ Thu, 23 May 2019 19:32:08  INFO BasePage.py get_text [ line:188 ] 查询价格：获取元素：('xpath', '//*[@id="data-list"]//td[4]/div[2]') 的文本内容
+ Thu, 23 May 2019 19:32:08  INFO BasePage.py get_text [ line:191 ] 查询价格：元素：('xpath', '//*[@id="data-list"]//td[4]/div[2]') 的文本内容为：qwe：48.48 AED eBay：7.98 USD(US) eBay：6.32 GBP(UK) eBay：10.45 CAD(CANADA) eBay：11.23 AUD(AUSTRALIA)
+eBay：6.97 EUR(FRANCE) eBay：6.91 EUR(GERMANY) eBay谷仓海外仓(空运)：9.68 USD eBay谷仓海外仓(空运)：7.61 GBP eBay谷仓海外仓(空运)：12.67 CAD
+eBay谷仓海外仓(空运)：13.71 AUD eBay谷仓海外仓(空运)：8.43 EUR eBay谷仓海外仓(空运)：8.43 EUR eBay谷仓海外仓(海运)：9.53 USD eBay谷仓海外仓(海运)：7.52 GBP
+eBay谷仓海外仓(海运)：12.41 CAD eBay谷仓海外仓(海运)：13.41 AUD eBay谷仓海外仓(海运)：8.32 EUR eBay谷仓海外仓(海运)：8.32 EUR 速卖通平邮：6.89 USD
+速卖通挂号：11.03 USD 速卖通俄罗斯挂号：9.89 USD 速卖通俄罗斯挂号(+30%)：12.86 USD 速卖通(+30%)：8.96 USD 速卖通(+23%)：8.27 USD
+速卖通俄罗斯海外仓：9.37 USD 速卖通转运：11.38 USD 速卖通转运(+30%)：14.79 USD 亚马逊：8.54 USD 亚马逊：6.59 GBP
+亚马逊：11.35 CAD 亚马逊：12.13 AUD 亚马逊：7.39 EUR 亚马逊：7.32 EUR 亚马逊：894.3 JPY
+Wish挂号：10.58 USD Wish平邮：10.22 USD Wish谷仓海外仓：11.88 USD Lazada：26.16 MYR Lazada：128518.42 IDR
+Lazada：10.89 SGD Lazada：227.86 THB Lazada：473.86 PHP Lazada：328458.94 VND EUB：9.77 USD
+Cdiscount：10.15 EUR Elevenia：29.0 MYR Elevenia：129096.88 IDR Newegg：7.78 USD PriceMinister：9.75 EUR
+Qoo10：13.04 SGD Linio：224.26 MXN Linio：7506.38 CLP Linio：37833.53 COP Linio：37.81 PEN
+Linio：239.81 ARP 敦煌：8.38 USD Doba：7.87 USD Ensogo：8.56 USD Ensogo：37.52 MYR
+Ensogo：161189.99 IDR Ensogo：11.96 SGD Ensogo：324.29 THB Ensogo：525.31 PHP Ensogo：253518.91 VND
+Joom上架价：10.97 USD Shopee：135632.18 IDR Shopee：24.66 MYR Shopee：9.4 SGD Shopee：226.29 THB
+Shopee：465.69 PHP Shopee：147193.88 VND Shopee：222.56 TWD Jumia：3456.36 NGN Jumia：926.45 KES
+Jumia：11666.36 XOF Jumia：232.77 EGP Jumia：142.27 MAD Jumia：46.26 GHC Jumia：6487.43 XAF
+Jumia：2997.59 UGX Paytm：1008.52 INR Walmart：12.53 USD Wadi：57.44 SAR Wadi：26.01 AED
+Daraz：876.36 PKR Daraz：638.8 BDT Daraz：1340.32 LKR Daraz：11024.51 MMK Daraz：811.44 NPR
+丰卖网平邮：8.28 USD 丰卖网挂号：7.82 USD 销售：0.0 CNY
+ Thu, 23 May 2019 19:32:11  INFO chaxun_money.py money [ line:64 ] ssss:['qwe：48.48 AED eBay：7.98 USD(US) eBay：6.32 GBP(UK) eBay：10.45 CAD(CANADA) eBay：11.23 AUD(AUSTRALIA)', 'eBay：6.97 EUR(FRANCE) eBay：6.91 EUR(GERMANY) eBay谷仓海外仓(空运)：9.68 USD eBay谷仓海外仓(空运)：7.61 GBP eBay谷仓海外仓(空运)：12.67 CAD', 'eBay谷仓海外仓(空运)：13.71 AUD eBay谷仓海外仓(空运)：8.43 EUR eBay谷仓海外仓(空运)：8.43 EUR eBay谷仓海外仓(海运)：9.53 USD eBay谷仓海外仓(海运)：7.52 GBP', 'eBay谷仓海外仓(海运)：12.41 CAD eBay谷仓海外仓(海运)：13.41 AUD eBay谷仓海外仓(海运)：8.32 EUR eBay谷仓海外仓(海运)：8.32 EUR 速卖通平邮：6.89 USD', '速卖通挂号：11.03 USD 速卖通俄罗斯挂号：9.89 USD 速卖通俄罗斯挂号(+30%)：12.86 USD 速卖通(+30%)：8.96 USD 速卖通(+23%)：8.27 USD', '速卖通俄罗斯海外仓：9.37 USD 速卖通转运：11.38 USD 速卖通转运(+30%)：14.79 USD 亚马逊：8.54 USD 亚马逊：6.59 GBP', '亚马逊：11.35 CAD 亚马逊：12.13 AUD 亚马逊：7.39 EUR 亚马逊：7.32 EUR 亚马逊：894.3 JPY', 'Wish挂号：10.58 USD Wish平邮：10.22 USD Wish谷仓海外仓：11.88 USD Lazada：26.16 MYR Lazada：128518.42 IDR', 'Lazada：10.89 SGD Lazada：227.86 THB Lazada：473.86 PHP Lazada：328458.94 VND EUB：9.77 USD', 'Cdiscount：10.15 EUR Elevenia：29.0 MYR Elevenia：129096.88 IDR Newegg：7.78 USD PriceMinister：9.75 EUR', 'Qoo10：13.04 SGD Linio：224.26 MXN Linio：7506.38 CLP Linio：37833.53 COP Linio：37.81 PEN', 'Linio：239.81 ARP 敦煌：8.38 USD Doba：7.87 USD Ensogo：8.56 USD Ensogo：37.52 MYR', 'Ensogo：161189.99 IDR Ensogo：11.96 SGD Ensogo：324.29 THB Ensogo：525.31 PHP Ensogo：253518.91 VND', 'Joom上架价：10.97 USD Shopee：135632.18 IDR Shopee：24.66 MYR Shopee：9.4 SGD Shopee：226.29 THB', 'Shopee：465.69 PHP Shopee：147193.88 VND Shopee：222.56 TWD Jumia：3456.36 NGN Jumia：926.45 KES', 'Jumia：11666.36 XOF Jumia：232.77 EGP Jumia：142.27 MAD Jumia：46.26 GHC Jumia：6487.43 XAF', 'Jumia：2997.59 UGX Paytm：1008.52 INR Walmart：12.53 USD Wadi：57.44 SAR Wadi：26.01 AED', 'Daraz：876.36 PKR Daraz：638.8 BDT Daraz：1340.32 LKR Daraz：11024.51 MMK Daraz：811.44 NPR', '丰卖网平邮：8.28 USD 丰卖网挂号：7.82 USD 销售：0.0 CNY']
+ Thu, 23 May 2019 19:32:11  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:11  INFO BasePage.py wait_eleVisible [ line:30 ] 输入多少钱: 元素 ('xpath', "//input[@name='order.orderItems[0].productPrice']") 已可见,等待起始时间：2019-05-23 19:32:11.717591,等待时长：0
+ Thu, 23 May 2019 19:32:11  INFO BasePage.py get_element [ line:58 ] 输入多少钱：开始查找元素：('xpath', "//input[@name='order.orderItems[0].productPrice']")
+ Thu, 23 May 2019 19:32:11  INFO BasePage.py input_text [ line:86 ] 输入多少钱: 元素：('xpath', "//input[@name='order.orderItems[0].productPrice']") 输入内容：328458
+ Thu, 23 May 2019 19:32:12  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:12  INFO BasePage.py wait_eleVisible [ line:30 ] 输入买家ID: 元素 ('xpath', '//input[@name="order.buyerId"]') 已可见,等待起始时间：2019-05-23 19:32:12.926600,等待时长：0
+ Thu, 23 May 2019 19:32:12  INFO BasePage.py get_element [ line:58 ] 输入买家ID：开始查找元素：('xpath', '//input[@name="order.buyerId"]')
+ Thu, 23 May 2019 19:32:12  INFO BasePage.py input_text [ line:86 ] 输入买家ID: 元素：('xpath', '//input[@name="order.buyerId"]') 输入内容：6944686494anhqx
+ Thu, 23 May 2019 19:32:13  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:13  INFO BasePage.py wait_eleVisible [ line:30 ] 输入收件人: 元素 ('xpath', '//input[@name="order.buyerName"]') 已可见,等待起始时间：2019-05-23 19:32:13.256091,等待时长：0
+ Thu, 23 May 2019 19:32:13  INFO BasePage.py get_element [ line:58 ] 输入收件人：开始查找元素：('xpath', '//input[@name="order.buyerName"]')
+ Thu, 23 May 2019 19:32:13  INFO BasePage.py input_text [ line:86 ] 输入收件人: 元素：('xpath', '//input[@name="order.buyerName"]') 输入内容：许寿龙
+ Thu, 23 May 2019 19:32:13  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:13  INFO BasePage.py wait_eleVisible [ line:30 ] 输入邮箱: 元素 ('xpath', '//input[@name="order.buyerEmail"]') 已可见,等待起始时间：2019-05-23 19:32:13.397634,等待时长：0
+ Thu, 23 May 2019 19:32:13  INFO BasePage.py get_element [ line:58 ] 输入邮箱：开始查找元素：('xpath', '//input[@name="order.buyerEmail"]')
+ Thu, 23 May 2019 19:32:13  INFO BasePage.py input_text [ line:86 ] 输入邮箱: 元素：('xpath', '//input[@name="order.buyerEmail"]') 输入内容：ynin2gjs6tr@thrubay.com
+ Thu, 23 May 2019 19:32:13  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:13  INFO BasePage.py wait_eleVisible [ line:30 ] 输入州: 元素 ('xpath', '//input[@name="order.buyerStateOrProvince"]') 已可见,等待起始时间：2019-05-23 19:32:13.845464,等待时长：0
+ Thu, 23 May 2019 19:32:13  INFO BasePage.py get_element [ line:58 ] 输入州：开始查找元素：('xpath', '//input[@name="order.buyerStateOrProvince"]')
+ Thu, 23 May 2019 19:32:13  INFO BasePage.py input_text [ line:86 ] 输入州: 元素：('xpath', '//input[@name="order.buyerStateOrProvince"]') 输入内容：Kansas
+ Thu, 23 May 2019 19:32:14  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:14  INFO BasePage.py wait_eleVisible [ line:30 ] 输入街道: 元素 ('xpath', '//input[@name="order.street"]') 已可见,等待起始时间：2019-05-23 19:32:14.038119,等待时长：0
+ Thu, 23 May 2019 19:32:14  INFO BasePage.py get_element [ line:58 ] 输入街道：开始查找元素：('xpath', '//input[@name="order.street"]')
+ Thu, 23 May 2019 19:32:14  INFO BasePage.py input_text [ line:86 ] 输入街道: 元素：('xpath', '//input[@name="order.street"]') 输入内容：555 Lexington Avenue, 10th Floor, Room 202
+ Thu, 23 May 2019 19:32:14  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:14  INFO BasePage.py wait_eleVisible [ line:30 ] 输入邮编: 元素 ('xpath', '//input[@name="order.buyerPostalCode"]') 已可见,等待起始时间：2019-05-23 19:32:14.771240,等待时长：0
+ Thu, 23 May 2019 19:32:14  INFO BasePage.py get_element [ line:58 ] 输入邮编：开始查找元素：('xpath', '//input[@name="order.buyerPostalCode"]')
+ Thu, 23 May 2019 19:32:14  INFO BasePage.py input_text [ line:86 ] 输入邮编: 元素：('xpath', '//input[@name="order.buyerPostalCode"]') 输入内容：92647
+ Thu, 23 May 2019 19:32:14  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:14  INFO BasePage.py wait_eleVisible [ line:30 ] 输入电话: 元素 ('xpath', '//input[@name="order.buyerTel"]') 已可见,等待起始时间：2019-05-23 19:32:14.945120,等待时长：0
+ Thu, 23 May 2019 19:32:14  INFO BasePage.py get_element [ line:58 ] 输入电话：开始查找元素：('xpath', '//input[@name="order.buyerTel"]')
+ Thu, 23 May 2019 19:32:14  INFO BasePage.py input_text [ line:86 ] 输入电话: 元素：('xpath', '//input[@name="order.buyerTel"]') 输入内容：285-3600
+ Thu, 23 May 2019 19:32:15  INFO BasePage.py select [ line:140 ] ('xpath', '//select[@name="order.buyerCountryCode"]'):选择国家select列表操作
+ Thu, 23 May 2019 19:32:15  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:15  INFO BasePage.py wait_eleVisible [ line:30 ] 选择国家: 元素 ('xpath', '//select[@name="order.buyerCountryCode"]') 已可见,等待起始时间：2019-05-23 19:32:15.166528,等待时长：0
+ Thu, 23 May 2019 19:32:15  INFO BasePage.py get_element [ line:58 ] 选择国家：开始查找元素：('xpath', '//select[@name="order.buyerCountryCode"]')
+ Thu, 23 May 2019 19:32:16  INFO BasePage.py select [ line:148 ] select列表操作完毕United States(美国US)
+ Thu, 23 May 2019 19:32:18  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:18  INFO BasePage.py wait_eleVisible [ line:30 ] 点击创建按钮: 元素 ('xpath', '//*[@id="fixed-bottom"]//button') 已可见,等待起始时间：2019-05-23 19:32:18.814046,等待时长：0
+ Thu, 23 May 2019 19:32:18  INFO BasePage.py get_element [ line:58 ] 点击创建按钮：开始查找元素：('xpath', '//*[@id="fixed-bottom"]//button')
+ Thu, 23 May 2019 19:32:18  INFO BasePage.py click_element [ line:104 ] 点击创建按钮: 元素：('xpath', '//*[@id="fixed-bottom"]//button') 点击事件。
+ Thu, 23 May 2019 19:32:21  INFO login_page.py clear_login [ line:25 ] 切换账号
+ Thu, 23 May 2019 19:32:21  INFO BasePage.py get_element [ line:58 ] 点击用户：开始查找元素：('xpath', '//*[@aria-expanded="false"]')
+ Thu, 23 May 2019 19:32:22  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:22  INFO BasePage.py wait_eleVisible [ line:30 ] 点击用户: 元素 ('xpath', '//*[@title="注销"]') 已可见,等待起始时间：2019-05-23 19:32:22.193980,等待时长：0
+ Thu, 23 May 2019 19:32:22  INFO BasePage.py get_element [ line:58 ] 点击用户：开始查找元素：('xpath', '//*[@title="注销"]')
+ Thu, 23 May 2019 19:32:22  INFO BasePage.py click_element [ line:104 ] 点击用户: 元素：('xpath', '//*[@title="注销"]') 点击事件。
+ Thu, 23 May 2019 19:32:24  INFO login_page.py login [ line:16 ] 登陆页面_登陆功能
+ Thu, 23 May 2019 19:32:24  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:24  INFO BasePage.py wait_eleVisible [ line:30 ] 输入用户名: 元素 ('xpath', '//*[@id="username"]') 已可见,等待起始时间：2019-05-23 19:32:24.709692,等待时长：0
+ Thu, 23 May 2019 19:32:24  INFO BasePage.py get_element [ line:58 ] 输入用户名：开始查找元素：('xpath', '//*[@id="username"]')
+ Thu, 23 May 2019 19:32:24  INFO BasePage.py input_text [ line:86 ] 输入用户名: 元素：('xpath', '//*[@id="username"]') 输入内容：USMT_ZCY
+ Thu, 23 May 2019 19:32:24  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:24  INFO BasePage.py wait_eleVisible [ line:30 ] 输入密码: 元素 ('xpath', '//*[@id="password"]') 已可见,等待起始时间：2019-05-23 19:32:24.867350,等待时长：0
+ Thu, 23 May 2019 19:32:24  INFO BasePage.py get_element [ line:58 ] 输入密码：开始查找元素：('xpath', '//*[@id="password"]')
+ Thu, 23 May 2019 19:32:24  INFO BasePage.py input_text [ line:86 ] 输入密码: 元素：('xpath', '//*[@id="password"]') 输入内容：111
+ Thu, 23 May 2019 19:32:24  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:24  INFO BasePage.py wait_eleVisible [ line:30 ] 输入验证码: 元素 ('xpath', '//*[@id="captcha"]') 已可见,等待起始时间：2019-05-23 19:32:24.951080,等待时长：0
+ Thu, 23 May 2019 19:32:24  INFO BasePage.py get_element [ line:58 ] 输入验证码：开始查找元素：('xpath', '//*[@id="captcha"]')
+ Thu, 23 May 2019 19:32:24  INFO BasePage.py input_text [ line:86 ] 输入验证码: 元素：('xpath', '//*[@id="captcha"]') 输入内容：1111
+ Thu, 23 May 2019 19:32:25  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:25  INFO BasePage.py wait_eleVisible [ line:30 ] 点击登录按钮: 元素 ('xpath', '//*[@id="login-btn"]') 已可见,等待起始时间：2019-05-23 19:32:25.054537,等待时长：0
+ Thu, 23 May 2019 19:32:25  INFO BasePage.py get_element [ line:58 ] 点击登录按钮：开始查找元素：('xpath', '//*[@id="login-btn"]')
+ Thu, 23 May 2019 19:32:25  INFO BasePage.py click_element [ line:104 ] 点击登录按钮: 元素：('xpath', '//*[@id="login-btn"]') 点击事件。
+ Thu, 23 May 2019 19:32:29  INFO order_guanli_page.py chaxun_code [ line:57 ] 查询订单号
+ Thu, 23 May 2019 19:32:29  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:29  INFO BasePage.py wait_eleVisible [ line:30 ] 输入平台订单号: 元素 ('xpath', '//*[@placeholder="系统订单号|平台订单号"]') 已可见,等待起始时间：2019-05-23 19:32:29.229164,等待时长：0
+ Thu, 23 May 2019 19:32:29  INFO BasePage.py get_element [ line:58 ] 输入平台订单号：开始查找元素：('xpath', '//*[@placeholder="系统订单号|平台订单号"]')
+ Thu, 23 May 2019 19:32:29  INFO BasePage.py input_text [ line:86 ] 输入平台订单号: 元素：('xpath', '//*[@placeholder="系统订单号|平台订单号"]') 输入内容：6944686494anhqx
+ Thu, 23 May 2019 19:32:29  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:29  INFO BasePage.py wait_eleVisible [ line:30 ] 点击搜索按钮: 元素 ('xpath', '//*[@class="btn btn-default"]') 已可见,等待起始时间：2019-05-23 19:32:29.420677,等待时长：0
+ Thu, 23 May 2019 19:32:29  INFO BasePage.py get_element [ line:58 ] 点击搜索按钮：开始查找元素：('xpath', '//*[@class="btn btn-default"]')
+ Thu, 23 May 2019 19:32:29  INFO BasePage.py click_element [ line:104 ] 点击搜索按钮: 元素：('xpath', '//*[@class="btn btn-default"]') 点击事件。
+ Thu, 23 May 2019 19:32:36  INFO order_guanli_page.py jian_move_he_qx [ line:43 ] 待检查转为待合并
+ Thu, 23 May 2019 19:32:36  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:36  INFO BasePage.py wait_eleVisible [ line:30 ] 勾选第一个订单: 元素 ('xpath', '//*[@id="order-list"]//tbody//tr[1]//label') 已可见,等待起始时间：2019-05-23 19:32:36.024851,等待时长：0
+ Thu, 23 May 2019 19:32:36  INFO BasePage.py get_element [ line:58 ] 勾选第一个订单：开始查找元素：('xpath', '//*[@id="order-list"]//tbody//tr[1]//label')
+ Thu, 23 May 2019 19:32:36  INFO BasePage.py click_element [ line:104 ] 勾选第一个订单: 元素：('xpath', '//*[@id="order-list"]//tbody//tr[1]//label') 点击事件。
+ Thu, 23 May 2019 19:32:36  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:36  INFO BasePage.py wait_eleVisible [ line:30 ] 订单移动操作栏: 元素 ('xpath', '//*[@id="orderstatus-moving"]') 已可见,等待起始时间：2019-05-23 19:32:36.667119,等待时长：0
+ Thu, 23 May 2019 19:32:36  INFO BasePage.py get_element [ line:58 ] 订单移动操作栏：开始查找元素：('xpath', '//*[@id="orderstatus-moving"]')
+ Thu, 23 May 2019 19:32:36  INFO BasePage.py click_element [ line:104 ] 订单移动操作栏: 元素：('xpath', '//*[@id="orderstatus-moving"]') 点击事件。
+ Thu, 23 May 2019 19:32:37  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:37  INFO BasePage.py wait_eleVisible [ line:30 ] 点击一键等待打单: 元素 ('xpath', '//*[@id="orderstatus-moving"]/optgroup[1]/option[1]') 已可见,等待起始时间：2019-05-23 19:32:37.279803,等待时长：0
+ Thu, 23 May 2019 19:32:37  INFO BasePage.py get_element [ line:58 ] 点击一键等待打单：开始查找元素：('xpath', '//*[@id="orderstatus-moving"]/optgroup[1]/option[1]')
+ Thu, 23 May 2019 19:32:37  INFO BasePage.py click_element [ line:104 ] 点击一键等待打单: 元素：('xpath', '//*[@id="orderstatus-moving"]/optgroup[1]/option[1]') 点击事件。
+ Thu, 23 May 2019 19:32:37  INFO BasePage.py get_alert [ line:237 ] 弹窗处理弹窗处理
+ Thu, 23 May 2019 19:32:37  INFO BasePage.py get_alert [ line:242 ] alert弹窗处理完成
+ Thu, 23 May 2019 19:32:38  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:38  INFO BasePage.py wait_eleVisible [ line:30 ] 点击OK按钮: 元素 ('xpath', '//*[@data-id="ok"]') 已可见,等待起始时间：2019-05-23 19:32:38.360017,等待时长：0
+ Thu, 23 May 2019 19:32:38  INFO BasePage.py get_element [ line:58 ] 点击OK按钮：开始查找元素：('xpath', '//*[@data-id="ok"]')
+ Thu, 23 May 2019 19:32:38  INFO BasePage.py click_element [ line:104 ] 点击OK按钮: 元素：('xpath', '//*[@data-id="ok"]') 点击事件。
+ Thu, 23 May 2019 19:32:41  INFO login_page.py clear_login [ line:25 ] 切换账号
+ Thu, 23 May 2019 19:32:41  INFO BasePage.py get_element [ line:58 ] 点击用户：开始查找元素：('xpath', '//*[@aria-expanded="false"]')
+ Thu, 23 May 2019 19:32:43  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:43  INFO BasePage.py wait_eleVisible [ line:30 ] 点击用户: 元素 ('xpath', '//*[@title="注销"]') 已可见,等待起始时间：2019-05-23 19:32:43.045224,等待时长：0
+ Thu, 23 May 2019 19:32:43  INFO BasePage.py get_element [ line:58 ] 点击用户：开始查找元素：('xpath', '//*[@title="注销"]')
+ Thu, 23 May 2019 19:32:43  INFO BasePage.py click_element [ line:104 ] 点击用户: 元素：('xpath', '//*[@title="注销"]') 点击事件。
+ Thu, 23 May 2019 19:32:45  INFO login_page.py login [ line:16 ] 登陆页面_登陆功能
+ Thu, 23 May 2019 19:32:45  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:45  INFO BasePage.py wait_eleVisible [ line:30 ] 输入用户名: 元素 ('xpath', '//*[@id="username"]') 已可见,等待起始时间：2019-05-23 19:32:45.526429,等待时长：0
+ Thu, 23 May 2019 19:32:45  INFO BasePage.py get_element [ line:58 ] 输入用户名：开始查找元素：('xpath', '//*[@id="username"]')
+ Thu, 23 May 2019 19:32:45  INFO BasePage.py input_text [ line:86 ] 输入用户名: 元素：('xpath', '//*[@id="username"]') 输入内容：david@iuneed.com
+ Thu, 23 May 2019 19:32:45  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:45  INFO BasePage.py wait_eleVisible [ line:30 ] 输入密码: 元素 ('xpath', '//*[@id="password"]') 已可见,等待起始时间：2019-05-23 19:32:45.650499,等待时长：0
+ Thu, 23 May 2019 19:32:45  INFO BasePage.py get_element [ line:58 ] 输入密码：开始查找元素：('xpath', '//*[@id="password"]')
+ Thu, 23 May 2019 19:32:45  INFO BasePage.py input_text [ line:86 ] 输入密码: 元素：('xpath', '//*[@id="password"]') 输入内容：111
+ Thu, 23 May 2019 19:32:45  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:45  INFO BasePage.py wait_eleVisible [ line:30 ] 输入验证码: 元素 ('xpath', '//*[@id="captcha"]') 已可见,等待起始时间：2019-05-23 19:32:45.735246,等待时长：0
+ Thu, 23 May 2019 19:32:45  INFO BasePage.py get_element [ line:58 ] 输入验证码：开始查找元素：('xpath', '//*[@id="captcha"]')
+ Thu, 23 May 2019 19:32:45  INFO BasePage.py input_text [ line:86 ] 输入验证码: 元素：('xpath', '//*[@id="captcha"]') 输入内容：1111
+ Thu, 23 May 2019 19:32:45  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:45  INFO BasePage.py wait_eleVisible [ line:30 ] 点击登录按钮: 元素 ('xpath', '//*[@id="login-btn"]') 已可见,等待起始时间：2019-05-23 19:32:45.852932,等待时长：0
+ Thu, 23 May 2019 19:32:45  INFO BasePage.py get_element [ line:58 ] 点击登录按钮：开始查找元素：('xpath', '//*[@id="login-btn"]')
+ Thu, 23 May 2019 19:32:45  INFO BasePage.py click_element [ line:104 ] 点击登录按钮: 元素：('xpath', '//*[@id="login-btn"]') 点击事件。
+ Thu, 23 May 2019 19:32:49  INFO order_guanli_page.py chaxun_code [ line:57 ] 查询订单号
+ Thu, 23 May 2019 19:32:49  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:50  INFO BasePage.py wait_eleVisible [ line:30 ] 输入平台订单号: 元素 ('xpath', '//*[@placeholder="系统订单号|平台订单号"]') 已可见,等待起始时间：2019-05-23 19:32:49.997881,等待时长：0
+ Thu, 23 May 2019 19:32:50  INFO BasePage.py get_element [ line:58 ] 输入平台订单号：开始查找元素：('xpath', '//*[@placeholder="系统订单号|平台订单号"]')
+ Thu, 23 May 2019 19:32:50  INFO BasePage.py input_text [ line:86 ] 输入平台订单号: 元素：('xpath', '//*[@placeholder="系统订单号|平台订单号"]') 输入内容：6944686494anhqx
+ Thu, 23 May 2019 19:32:50  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:50  INFO BasePage.py wait_eleVisible [ line:30 ] 点击搜索按钮: 元素 ('xpath', '//*[@class="btn btn-default"]') 已可见,等待起始时间：2019-05-23 19:32:50.158259,等待时长：0
+ Thu, 23 May 2019 19:32:50  INFO BasePage.py get_element [ line:58 ] 点击搜索按钮：开始查找元素：('xpath', '//*[@class="btn btn-default"]')
+ Thu, 23 May 2019 19:32:50  INFO BasePage.py click_element [ line:104 ] 点击搜索按钮: 元素：('xpath', '//*[@class="btn btn-default"]') 点击事件。
+ Thu, 23 May 2019 19:32:53  INFO order_guanli_page.py freight_gu [ line:64 ] 运费估算
+ Thu, 23 May 2019 19:32:53  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:53  INFO BasePage.py wait_eleVisible [ line:30 ] 点击运费估算: 元素 ('xpath', '//*[@title="运费估算"]') 已可见,等待起始时间：2019-05-23 19:32:53.373185,等待时长：0
+ Thu, 23 May 2019 19:32:53  INFO BasePage.py get_element [ line:58 ] 点击运费估算：开始查找元素：('xpath', '//*[@title="运费估算"]')
+ Thu, 23 May 2019 19:32:53  INFO BasePage.py click_element [ line:104 ] 点击运费估算: 元素：('xpath', '//*[@title="运费估算"]') 点击事件。
+ Thu, 23 May 2019 19:32:53  INFO BasePage.py switchover_html [ line:159 ] 切换HTML页面
+ Thu, 23 May 2019 19:32:53  INFO BasePage.py switchover_html [ line:162 ] HTML页面切换成功
+ Thu, 23 May 2019 19:32:54  INFO BasePage.py select [ line:140 ] ('xpath', '//*[@name="transportationModeQueryCondition.logisticsType"]'):选择快递类型select列表操作
+ Thu, 23 May 2019 19:32:54  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:54  INFO BasePage.py wait_eleVisible [ line:30 ] 选择快递类型: 元素 ('xpath', '//*[@name="transportationModeQueryCondition.logisticsType"]') 已可见,等待起始时间：2019-05-23 19:32:54.003773,等待时长：0
+ Thu, 23 May 2019 19:32:54  INFO BasePage.py get_element [ line:58 ] 选择快递类型：开始查找元素：('xpath', '//*[@name="transportationModeQueryCondition.logisticsType"]')
+ Thu, 23 May 2019 19:32:55  INFO BasePage.py select [ line:148 ] select列表操作完毕快递
+ Thu, 23 May 2019 19:32:55  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:55  INFO BasePage.py wait_eleVisible [ line:30 ] 点击搜索按钮: 元素 ('xpath', '//*[@id="submit-form"]/div[9]/button') 已可见,等待起始时间：2019-05-23 19:32:55.603099,等待时长：0
+ Thu, 23 May 2019 19:32:55  INFO BasePage.py get_element [ line:58 ] 点击搜索按钮：开始查找元素：('xpath', '//*[@id="submit-form"]/div[9]/button')
+ Thu, 23 May 2019 19:32:55  INFO BasePage.py click_element [ line:104 ] 点击搜索按钮: 元素：('xpath', '//*[@id="submit-form"]/div[9]/button') 点击事件。
+ Thu, 23 May 2019 19:32:56  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:56  INFO BasePage.py wait_eleVisible [ line:30 ] 获取第一个快递文本: 元素 ('xpath', '//*[@id="data-list"]/tbody/tr[1]/td[2]') 已可见,等待起始时间：2019-05-23 19:32:56.730641,等待时长：0
+ Thu, 23 May 2019 19:32:56  INFO BasePage.py get_element [ line:58 ] 获取第一个快递文本：开始查找元素：('xpath', '//*[@id="data-list"]/tbody/tr[1]/td[2]')
+ Thu, 23 May 2019 19:32:56  INFO BasePage.py get_text [ line:188 ] 获取第一个快递文本：获取元素：('xpath', '//*[@id="data-list"]/tbody/tr[1]/td[2]') 的文本内容
+ Thu, 23 May 2019 19:32:56  INFO BasePage.py get_text [ line:191 ] 获取第一个快递文本：元素：('xpath', '//*[@id="data-list"]/tbody/tr[1]/td[2]') 的文本内容为：其他-EMS(274)
+ Thu, 23 May 2019 19:32:56  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:56  INFO BasePage.py wait_eleVisible [ line:30 ] 获取第一个快递文本: 元素 ('xpath', '//*[@id="data-list"]/tbody/tr[1]/td[2]') 已可见,等待起始时间：2019-05-23 19:32:56.777476,等待时长：0
+ Thu, 23 May 2019 19:32:56  INFO BasePage.py get_element [ line:58 ] 获取第一个快递文本：开始查找元素：('xpath', '//*[@id="data-list"]/tbody/tr[1]/td[2]')
+ Thu, 23 May 2019 19:32:56  INFO BasePage.py get_text [ line:188 ] 获取第一个快递文本：获取元素：('xpath', '//*[@id="data-list"]/tbody/tr[1]/td[2]') 的文本内容
+ Thu, 23 May 2019 19:32:56  INFO BasePage.py get_text [ line:191 ] 获取第一个快递文本：元素：('xpath', '//*[@id="data-list"]/tbody/tr[1]/td[2]') 的文本内容为：其他-EMS(274)
+ Thu, 23 May 2019 19:32:56  INFO order_guanli_page.py freight_gu [ line:78 ] 物流方式：其他-EMS(274)
+ Thu, 23 May 2019 19:32:57  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:57  INFO BasePage.py wait_eleVisible [ line:30 ] 确认: 元素 ('xpath', '//*[@data-id="ok"]') 已可见,等待起始时间：2019-05-23 19:32:57.826488,等待时长：0
+ Thu, 23 May 2019 19:32:57  INFO BasePage.py get_element [ line:58 ] 确认：开始查找元素：('xpath', '//*[@data-id="ok"]')
+ Thu, 23 May 2019 19:32:57  INFO BasePage.py click_element [ line:104 ] 确认: 元素：('xpath', '//*[@data-id="ok"]') 点击事件。
+ Thu, 23 May 2019 19:32:59  INFO order_guanli_page.py xiu_kdi_moth_qx [ line:178 ] 修改快递方式
+ Thu, 23 May 2019 19:32:59  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:32:59  INFO BasePage.py wait_eleVisible [ line:30 ] 修改第一个订单: 元素 ('xpath', '//*[@id="order-list"]//tbody//tr[1]//label') 已可见,等待起始时间：2019-05-23 19:32:59.430921,等待时长：0
+ Thu, 23 May 2019 19:32:59  INFO BasePage.py get_element [ line:58 ] 修改第一个订单：开始查找元素：('xpath', '//*[@id="order-list"]//tbody//tr[1]//label')
+ Thu, 23 May 2019 19:32:59  INFO BasePage.py click_element [ line:104 ] 修改第一个订单: 元素：('xpath', '//*[@id="order-list"]//tbody//tr[1]//label') 点击事件。
+ Thu, 23 May 2019 19:33:00  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:33:00  INFO BasePage.py wait_eleVisible [ line:30 ] 修改运输方式: 元素 ('xpath', '//*[@id="select2-chosen-4"]') 已可见,等待起始时间：2019-05-23 19:33:00.026108,等待时长：0
+ Thu, 23 May 2019 19:33:00  INFO BasePage.py get_element [ line:58 ] 修改运输方式：开始查找元素：('xpath', '//*[@id="select2-chosen-4"]')
+ Thu, 23 May 2019 19:33:00  INFO BasePage.py click_element [ line:104 ] 修改运输方式: 元素：('xpath', '//*[@id="select2-chosen-4"]') 点击事件。
+ Thu, 23 May 2019 19:33:00  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:33:00  INFO BasePage.py wait_eleVisible [ line:30 ] 输入运输方式: 元素 ('xpath', '//*[@id="s2id_autogen4_search"]') 已可见,等待起始时间：2019-05-23 19:33:00.247669,等待时长：0
+ Thu, 23 May 2019 19:33:00  INFO BasePage.py get_element [ line:58 ] 输入运输方式：开始查找元素：('xpath', '//*[@id="s2id_autogen4_search"]')
+ Thu, 23 May 2019 19:33:00  INFO BasePage.py input_text [ line:86 ] 输入运输方式: 元素：('xpath', '//*[@id="s2id_autogen4_search"]') 输入内容：其他-EMS(274)
+ Thu, 23 May 2019 19:33:00  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:33:00  INFO BasePage.py wait_eleVisible [ line:30 ] 点击运输方式: 元素 ('xpath', '//*[@id="select2-results-4"]//ul') 已可见,等待起始时间：2019-05-23 19:33:00.889000,等待时长：0
+ Thu, 23 May 2019 19:33:00  INFO BasePage.py get_element [ line:58 ] 点击运输方式：开始查找元素：('xpath', '//*[@id="select2-results-4"]//ul')
+ Thu, 23 May 2019 19:33:00  INFO BasePage.py click_element [ line:104 ] 点击运输方式: 元素：('xpath', '//*[@id="select2-results-4"]//ul') 点击事件。
+ Thu, 23 May 2019 19:33:00  INFO BasePage.py get_alert [ line:237 ] 弹窗处理
+ Thu, 23 May 2019 19:33:00  INFO BasePage.py get_alert [ line:242 ] alert弹窗处理完成
+ Thu, 23 May 2019 19:33:01  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:33:01  INFO BasePage.py wait_eleVisible [ line:30 ] 确认: 元素 ('xpath', '//*[@data-id="ok"]') 已可见,等待起始时间：2019-05-23 19:33:01.980789,等待时长：0
+ Thu, 23 May 2019 19:33:01  INFO BasePage.py get_element [ line:58 ] 确认：开始查找元素：('xpath', '//*[@data-id="ok"]')
+ Thu, 23 May 2019 19:33:02  INFO BasePage.py click_element [ line:104 ] 确认: 元素：('xpath', '//*[@data-id="ok"]') 点击事件。
+ Thu, 23 May 2019 19:33:02  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:33:02  INFO BasePage.py wait_eleVisible [ line:30 ] : 元素 ('xpath', '//*[@id="order-list"]//tbody//tr[1]//label') 已可见,等待起始时间：2019-05-23 19:33:02.072784,等待时长：0
+ Thu, 23 May 2019 19:33:02  INFO BasePage.py get_element [ line:58 ] ：开始查找元素：('xpath', '//*[@id="order-list"]//tbody//tr[1]//label')
+ Thu, 23 May 2019 19:33:02  INFO BasePage.py get_text [ line:188 ] ：获取元素：('xpath', '//*[@id="order-list"]//tbody//tr[1]//label') 的文本内容
+ Thu, 23 May 2019 19:33:02  INFO BasePage.py get_text [ line:191 ] ：元素：('xpath', '//*[@id="order-list"]//tbody//tr[1]//label') 的文本内容为：911491853
+ Thu, 23 May 2019 19:33:03  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:33:03  INFO BasePage.py wait_eleVisible [ line:30 ] 修改订单: 元素 ('xpath', '//*[@title="修改订单"]') 已可见,等待起始时间：2019-05-23 19:33:03.122614,等待时长：0
+ Thu, 23 May 2019 19:33:03  INFO BasePage.py get_element [ line:58 ] 修改订单：开始查找元素：('xpath', '//*[@title="修改订单"]')
+ Thu, 23 May 2019 19:33:03  INFO BasePage.py click_element [ line:104 ] 修改订单: 元素：('xpath', '//*[@title="修改订单"]') 点击事件。
+ Thu, 23 May 2019 19:33:03  INFO BasePage.py window_switch [ line:172 ] 切换窗口位置-1，功能点窗口切换
+ Thu, 23 May 2019 19:33:03  INFO BasePage.py window_switch [ line:176 ] 窗口切换成功
+ Thu, 23 May 2019 19:33:05  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:33:06  INFO BasePage.py wait_eleVisible [ line:30 ] 输入跟踪号: 元素 ('xpath', '//*[@id="order-tranking"]') 已可见,等待起始时间：2019-05-23 19:33:05.276098,等待时长：1
+ Thu, 23 May 2019 19:33:06  INFO BasePage.py get_element [ line:58 ] 输入跟踪号：开始查找元素：('xpath', '//*[@id="order-tranking"]')
+ Thu, 23 May 2019 19:33:06  INFO BasePage.py input_text [ line:86 ] 输入跟踪号: 元素：('xpath', '//*[@id="order-tranking"]') 输入内容：6944686494anhqx
+ Thu, 23 May 2019 19:33:07  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:33:07  INFO BasePage.py wait_eleVisible [ line:30 ] 增加跟踪号: 元素 ('xpath', '//*[@id="fixed-bottom"]//button') 已可见,等待起始时间：2019-05-23 19:33:07.546373,等待时长：0
+ Thu, 23 May 2019 19:33:07  INFO BasePage.py get_element [ line:58 ] 增加跟踪号：开始查找元素：('xpath', '//*[@id="fixed-bottom"]//button')
+ Thu, 23 May 2019 19:33:07  INFO BasePage.py click_element [ line:104 ] 增加跟踪号: 元素：('xpath', '//*[@id="fixed-bottom"]//button') 点击事件。
+ Thu, 23 May 2019 19:33:10  INFO yunshu_pipei.py get_yunshu [ line:24 ] 获取运输匹配方式
+ Thu, 23 May 2019 19:33:10  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:33:10  INFO BasePage.py wait_eleVisible [ line:30 ] 点击系统配置: 元素 ('xpath', '//*[@id="menu_10000000"]') 已可见,等待起始时间：2019-05-23 19:33:10.682361,等待时长：0
+ Thu, 23 May 2019 19:33:10  INFO BasePage.py get_element [ line:58 ] 点击系统配置：开始查找元素：('xpath', '//*[@id="menu_10000000"]')
+ Thu, 23 May 2019 19:33:10  INFO BasePage.py click_element [ line:104 ] 点击系统配置: 元素：('xpath', '//*[@id="menu_10000000"]') 点击事件。
+ Thu, 23 May 2019 19:33:11  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Thu, 23 May 2019 19:33:11  INFO BasePage.py wait_eleVisible [ line:30 ] 点击运费方式匹配: 元素 ('xpath', '//*[@id="menu_10000000"]//*[@id="menu_10121000"]') 已可见,等待起始时间：2019-05-23 19:33:11.805287,等待时长：0
+ Thu, 23 May 2019 19:33:11  INFO BasePage.py get_element [ line:58 ] 点击运费方式匹配：开始查找元素：('xpath', '//*[@id="menu_10000000"]//*[@id="menu_10121000"]')
+ Thu, 23 May 2019 19:33:11  INFO BasePage.py click_element [ line:104 ] 点击运费方式匹配: 元素：('xpath', '//*[@id="menu_10000000"]//*[@id="menu_10121000"]') 点击事件。

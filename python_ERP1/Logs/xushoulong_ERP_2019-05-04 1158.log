@@ -1,0 +1,46 @@
+ Sat, 04 May 2019 11:58:21  INFO logger.py <module> [ line:22 ] 测试开始
+ Sat, 04 May 2019 11:58:49  INFO logger.py <module> [ line:22 ] 测试开始
+ Sat, 04 May 2019 11:58:49  INFO conftest.py login_web [ line:37 ] =====用例前置：初始化浏览器会话，登陆WEB系统=======
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py wait_eleVisible [ line:30 ] 登陆页面_登陆功能: 元素 ('xpath', '//*[@id="username"]') 已可见,等待起始时间：2019-05-04 11:58:55.803730,等待时长：0
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py get_element [ line:58 ] 登陆页面_登陆功能：开始查找元素：('xpath', '//*[@id="username"]')
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py input_text [ line:85 ] 登陆页面_登陆功能: 元素：('xpath', '//*[@id="username"]') 输入内容：it_test
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py get_element [ line:58 ] 登陆页面_登陆功能：开始查找元素：('xpath', '//*[@id="password"]')
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py input_text [ line:85 ] 登陆页面_登陆功能: 元素：('xpath', '//*[@id="password"]') 输入内容：it_test
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py get_element [ line:58 ] 登陆页面_登陆功能：开始查找元素：('xpath', '//*[@id="captcha"]')
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py input_text [ line:85 ] 登陆页面_登陆功能: 元素：('xpath', '//*[@id="captcha"]') 输入内容：1111
+ Sat, 04 May 2019 11:58:56  INFO BasePage.py get_element [ line:58 ] 登陆页面_登陆功能：开始查找元素：('xpath', '//*[@id="login-btn"]')
+ Sat, 04 May 2019 11:58:56  INFO BasePage.py click_element [ line:101 ] 登陆页面_登陆功能: 元素：('xpath', '//*[@id="login-btn"]') 点击事件。
+ Sat, 04 May 2019 11:58:56  INFO test_ruku.py test_order_ng_month_rk [ line:1253 ] *********入库：开始执行输入不通过原因，NG采购待处理用例*********
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py wait_eleVisible [ line:30 ] 点击库存管理按钮: 元素 ('xpath', '//*[@id="menu_11000000"]') 已可见,等待起始时间：2019-05-04 11:59:00.212778,等待时长：0
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py get_element [ line:58 ] 点击库存管理按钮：开始查找元素：('xpath', '//*[@id="menu_11000000"]')
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py click_element [ line:101 ] 点击库存管理按钮: 元素：('xpath', '//*[@id="menu_11000000"]') 点击事件。
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py wait_eleVisible [ line:30 ] 点击建议采购按钮: 元素 ('xpath', '//*[@id="menu_11131400"]') 已可见,等待起始时间：2019-05-04 11:59:00.342809,等待时长：0
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py get_element [ line:58 ] 点击建议采购按钮：开始查找元素：('xpath', '//*[@id="menu_11131400"]')
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py click_element [ line:101 ] 点击建议采购按钮: 元素：('xpath', '//*[@id="menu_11131400"]') 点击事件。
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py wait_eleVisible [ line:30 ] 订单筛选: 元素 ('xpath', '//*[@name="query.supplierQuery.paymentMethod"]') 已可见,等待起始时间：2019-05-04 11:59:06.624266,等待时长：0
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py select [ line:136 ] ('xpath', '//*[@name="query.supplierQuery.paymentMethod"]'):订单筛选select列表操作
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py get_element [ line:58 ] 订单筛选：开始查找元素：('xpath', '//*[@name="query.supplierQuery.paymentMethod"]')
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py select [ line:141 ] select列表操作完毕月结
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py select [ line:136 ] ('xpath', '//*[@name="query.listingStatus"]'):订单筛选select列表操作
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py get_element [ line:58 ] 订单筛选：开始查找元素：('xpath', '//*[@name="query.listingStatus"]')
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py select [ line:141 ] select列表操作完毕上架
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py select [ line:136 ] ('xpath', '//*[@name="query.hasInTransit"]'):订单筛选select列表操作
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py get_element [ line:58 ] 订单筛选：开始查找元素：('xpath', '//*[@name="query.hasInTransit"]')
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py select [ line:141 ] select列表操作完毕否
+ Sat, 04 May 2019 11:59:07  INFO BasePage.py get_element [ line:58 ] 订单筛选：开始查找元素：('xpath', '//i[@class="icon-search"]')
+ Sat, 04 May 2019 11:59:07  INFO BasePage.py click_element [ line:101 ] 订单筛选: 元素：('xpath', '//i[@class="icon-search"]') 点击事件。
+ Sat, 04 May 2019 11:59:10  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Sat, 04 May 2019 11:59:26  ERROR BasePage.py wait_eleVisible [ line:33 ] 等待元素可见异常
+Traceback (most recent call last):
+  File "D:\pythonxu\python_ERP1\Common\BasePage.py", line 27, in wait_eleVisible
+    WebDriverWait(self.driver,wait_times,poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "C:\Users\test\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Sat, 04 May 2019 11:59:26  INFO BasePage.py _screenshot [ line:200 ] 截图成功，图片路径为：D:\pythonxu\python_ERP1\ScreenShot/xu_2019-05-04-11-59-26_SKU.png
+ Sat, 04 May 2019 11:59:26  INFO conftest.py login_web [ line:45 ] =====用例后置：关闭浏览器会话,清理环境=======

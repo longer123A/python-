@@ -1,0 +1,10 @@
+[
+  "test_login.py::test_failure_case",
+  "test_login.py::test_diffrent_case",
+  "test_login.py::TestLogin::()::test_login_success",
+  "test_login.py::TestLogin::()::test_login_fail_noUser[data0]",
+  "test_login.py::TestLogin::()::test_login_fail_noUser[data1]",
+  "test_login.py::TestLogin::()::test_login_fail_noUser[data2]",
+  "test_login.py::TestLogin::()::test_login_wrongLoginInfo[caseData0]",
+  "test_login.py::TestLogin::()::test_login_wrongLoginInfo[caseData1]"
+]

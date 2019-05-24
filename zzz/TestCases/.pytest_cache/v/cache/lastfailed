@@ -1,0 +1,7 @@
+{
+  "test_login.py::TestLogin::()::test_login_success": true,
+  "test_login.py::TestLogin::()::test_login_wrongLoginInfo[caseData0]": true,
+  "test_login.py::TestLogin::()::test_login_wrongLoginInfo[caseData1]": true,
+  "test_login.py::TestLogin::test_login_success": true,
+  "test_login.py::test_failure_case": true
+}

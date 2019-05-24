@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skipped="0" tests="1" time="40.592"><testcase classname="TestCases.test_ruku.TestPutStorage" file="TestCases\test_ruku.py" line="1247" name="test_order_ng_month_rk" time="40.419"><failure message="selenium.common.exceptions.TimeoutException: Message:">self = &lt;TestCases.test_ruku.TestPutStorage object at 0x00000271593A5F98&gt;
+login_web = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&quot;e52334b832d87b4d615e09d241b8c7d0&quot;)&gt;
+
+    @pytest.mark.ng1
+    # [月结,半月结,周结,线下现结,电汇,款到发货,跨境宝支付,阿里账期,线上现结]
+    # NG 输入不通过原因  NG采购待处理
+    # 月结,
+    def test_order_ng_month_rk(self, login_web):
+        logging.info(&quot;*********入库：开始执行输入不通过原因，NG采购待处理用例*********&quot;)
+        number = random.randint(100000, 1000000)
+        PutSto = PutStor(login_web)  # 库存管理方法
+        GetOrder = GetOrdervalue(login_web)  # 采购页面方法，包含BasePage
+        listp = ListPu(login_web)
+        sca = Scan(login_web)
+        ng=NgPending(login_web)
+    
+        time.sleep(4)
+        # 点击库存管理按钮
+        PutSto.click_stocon()
+        # 点击建议采购按钮
+        PutSto.click_suging()
+        # 增加筛选订单条件
+        GetOrder.filtrate_order(&apos;月结&apos;)
+        # 获取订单SKU
+&gt;       sku = GetOrder.get_order_sku()
+
+TestCases\test_ruku.py:1269: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+PageObjects\suggest_jianyi_page.py:11: in get_order_sku
+    self.wait_eleVisible(loc.SKU,model=name)
+Common\BasePage.py:27: in wait_eleVisible
+    WebDriverWait(self.driver,wait_times,poll_frequency).until(EC.visibility_of_element_located(locator))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session=&quot;e52334b832d87b4d615e09d241b8c7d0&quot;)&gt;
+method = &lt;selenium.webdriver.support.expected_conditions.visibility_of_element_located object at 0x000002715957E5F8&gt;
+message = &apos;&apos;
+
+    def until(self, method, message=&apos;&apos;):
+        &quot;&quot;&quot;Calls the method provided with the driver as an argument until the \
+        return value is not False.&quot;&quot;&quot;
+        screen = None
+        stacktrace = None
+    
+        end_time = time.time() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, &apos;screen&apos;, None)
+                stacktrace = getattr(exc, &apos;stacktrace&apos;, None)
+            time.sleep(self._poll)
+            if time.time() &gt; end_time:
+                break
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message:
+
+C:\Users\test\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py:80: TimeoutException</failure><system-err> Sat, 04 May 2019 11:58:49  INFO conftest.py login_web [ line:37 ] =====用例前置：初始化浏览器会话，登陆WEB系统=======
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py wait_eleVisible [ line:30 ] 登陆页面_登陆功能: 元素 (&apos;xpath&apos;, &apos;//*[@id=&quot;username&quot;]&apos;) 已可见,等待起始时间：2019-05-04 11:58:55.803730,等待时长：0
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py get_element [ line:58 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &apos;//*[@id=&quot;username&quot;]&apos;)
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py input_text [ line:85 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &apos;//*[@id=&quot;username&quot;]&apos;) 输入内容：it_test
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py get_element [ line:58 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &apos;//*[@id=&quot;password&quot;]&apos;)
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py input_text [ line:85 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &apos;//*[@id=&quot;password&quot;]&apos;) 输入内容：it_test
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py get_element [ line:58 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &apos;//*[@id=&quot;captcha&quot;]&apos;)
+ Sat, 04 May 2019 11:58:55  INFO BasePage.py input_text [ line:85 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &apos;//*[@id=&quot;captcha&quot;]&apos;) 输入内容：1111
+ Sat, 04 May 2019 11:58:56  INFO BasePage.py get_element [ line:58 ] 登陆页面_登陆功能：开始查找元素：(&apos;xpath&apos;, &apos;//*[@id=&quot;login-btn&quot;]&apos;)
+ Sat, 04 May 2019 11:58:56  INFO BasePage.py click_element [ line:101 ] 登陆页面_登陆功能: 元素：(&apos;xpath&apos;, &apos;//*[@id=&quot;login-btn&quot;]&apos;) 点击事件。
+ Sat, 04 May 2019 11:58:56  INFO test_ruku.py test_order_ng_month_rk [ line:1253 ] *********入库：开始执行输入不通过原因，NG采购待处理用例*********
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py wait_eleVisible [ line:30 ] 点击库存管理按钮: 元素 (&apos;xpath&apos;, &apos;//*[@id=&quot;menu_11000000&quot;]&apos;) 已可见,等待起始时间：2019-05-04 11:59:00.212778,等待时长：0
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py get_element [ line:58 ] 点击库存管理按钮：开始查找元素：(&apos;xpath&apos;, &apos;//*[@id=&quot;menu_11000000&quot;]&apos;)
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py click_element [ line:101 ] 点击库存管理按钮: 元素：(&apos;xpath&apos;, &apos;//*[@id=&quot;menu_11000000&quot;]&apos;) 点击事件。
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py wait_eleVisible [ line:30 ] 点击建议采购按钮: 元素 (&apos;xpath&apos;, &apos;//*[@id=&quot;menu_11131400&quot;]&apos;) 已可见,等待起始时间：2019-05-04 11:59:00.342809,等待时长：0
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py get_element [ line:58 ] 点击建议采购按钮：开始查找元素：(&apos;xpath&apos;, &apos;//*[@id=&quot;menu_11131400&quot;]&apos;)
+ Sat, 04 May 2019 11:59:00  INFO BasePage.py click_element [ line:101 ] 点击建议采购按钮: 元素：(&apos;xpath&apos;, &apos;//*[@id=&quot;menu_11131400&quot;]&apos;) 点击事件。
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py wait_eleVisible [ line:30 ] 订单筛选: 元素 (&apos;xpath&apos;, &apos;//*[@name=&quot;query.supplierQuery.paymentMethod&quot;]&apos;) 已可见,等待起始时间：2019-05-04 11:59:06.624266,等待时长：0
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py select [ line:136 ] (&apos;xpath&apos;, &apos;//*[@name=&quot;query.supplierQuery.paymentMethod&quot;]&apos;):订单筛选select列表操作
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py get_element [ line:58 ] 订单筛选：开始查找元素：(&apos;xpath&apos;, &apos;//*[@name=&quot;query.supplierQuery.paymentMethod&quot;]&apos;)
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py select [ line:141 ] select列表操作完毕月结
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py select [ line:136 ] (&apos;xpath&apos;, &apos;//*[@name=&quot;query.listingStatus&quot;]&apos;):订单筛选select列表操作
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py get_element [ line:58 ] 订单筛选：开始查找元素：(&apos;xpath&apos;, &apos;//*[@name=&quot;query.listingStatus&quot;]&apos;)
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py select [ line:141 ] select列表操作完毕上架
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py select [ line:136 ] (&apos;xpath&apos;, &apos;//*[@name=&quot;query.hasInTransit&quot;]&apos;):订单筛选select列表操作
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py get_element [ line:58 ] 订单筛选：开始查找元素：(&apos;xpath&apos;, &apos;//*[@name=&quot;query.hasInTransit&quot;]&apos;)
+ Sat, 04 May 2019 11:59:06  INFO BasePage.py select [ line:141 ] select列表操作完毕否
+ Sat, 04 May 2019 11:59:07  INFO BasePage.py get_element [ line:58 ] 订单筛选：开始查找元素：(&apos;xpath&apos;, &apos;//i[@class=&quot;icon-search&quot;]&apos;)
+ Sat, 04 May 2019 11:59:07  INFO BasePage.py click_element [ line:101 ] 订单筛选: 元素：(&apos;xpath&apos;, &apos;//i[@class=&quot;icon-search&quot;]&apos;) 点击事件。
+ Sat, 04 May 2019 11:59:10  INFO BasePage.py wait_eleVisible [ line:23 ] 等待元素可见。
+ Sat, 04 May 2019 11:59:26  ERROR BasePage.py wait_eleVisible [ line:33 ] 等待元素可见异常
+Traceback (most recent call last):
+  File &quot;D:\pythonxu\python_ERP1\Common\BasePage.py&quot;, line 27, in wait_eleVisible
+    WebDriverWait(self.driver,wait_times,poll_frequency).until(EC.visibility_of_element_located(locator))
+  File &quot;C:\Users\test\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py&quot;, line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Sat, 04 May 2019 11:59:26  INFO BasePage.py _screenshot [ line:200 ] 截图成功，图片路径为：D:\pythonxu\python_ERP1\ScreenShot/xu_2019-05-04-11-59-26_SKU.png
+ Sat, 04 May 2019 11:59:26  INFO conftest.py login_web [ line:45 ] =====用例后置：关闭浏览器会话,清理环境=======
+</system-err></testcase></testsuite>
